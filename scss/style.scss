@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+
+body {
+  overflow-x: hidden;
+}
+
+// Work css
+$WorkColor: red;
+
+.WorkClass {
+  border: 1px solid $WorkColor;
+  background-color: rgba($WorkColor, 0.4);
+}
+
+// end work css
+
+section {
+  width: 100%;
+  padding: 50px;
+  border-top: 2px solid lightgrey;
+  text-align: center;
+}
+
+
+//-------------------------------------------------------------------------------------------------------------------------
+
+// Menu Navigation Responsive
+.navbar {
+  margin-bottom: -50px;
+  z-index: 100;
+}
+
+// Jumbotron header Home page
+.jumbotron {
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  background-image: linear-gradient(160deg, rgba(darkgreen, 0.2), rgba(green, 0.2)), url(images/Burger_slider_2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+    .description {
+      width: 95%;
+      position: absolute;
+      top: 70vh;
+      transform: translateY(-70%);
+      text-align: center;
+      margin: auto;
+    }
+
+}
+
+// Arguments bar
+
+.containerArg {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+
+
