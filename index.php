@@ -23,7 +23,7 @@
     <div class="jumbotron">
         <div class="container-fluid">
             <div class="description">
-                <h1>Bug Burger, 1er fast-food d’insecte en France</h1>
+                <h1>Bug Burger, 1<sup>er</sup> fast-food d’insecte en France</h1>
                 <p> Bug Burger : une expérience délicieuse, pour la planète aussi !</p>
                 <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
             </div>

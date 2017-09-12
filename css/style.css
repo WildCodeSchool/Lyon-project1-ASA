@@ -2,6 +2,11 @@
   border: 1px solid red;
   background-color: rgba(255, 0, 0, 0.4); }
 
+.WorkProgress {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-color: rgba(255, 0, 0, 0.6); }
+
 * {
   box-sizing: border-box; }
 
@@ -17,6 +22,8 @@ section {
 .navbar {
   margin-bottom: -50px;
   z-index: 100; }
+  .navbar .navbar-brand {
+    padding: 8px 15px; }
 
 .jumbotron {
   width: 100%;
@@ -46,7 +53,9 @@ section {
   justify-content: space-around;
   flex-wrap: wrap-reverse; }
   .containerArg .logoArg {
-    color: #1a913e; }
+    color: #1a913e;
+    margin-right: 25px;
+    padding: 30px; }
 
 .Well-endPage {
   width: 100%;

@@ -7,6 +7,12 @@ $colorGrey: rgba(black, 0.8);
   border: 1px solid $WorkColor;
   background-color: rgba($WorkColor, 0.4);
 }
+
+.WorkProgress {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-color: rgba($WorkColor, 0.6);
+}
 // end work css
 
 // CSS general ( no selectors or id's )
@@ -30,6 +36,9 @@ section {
 .navbar  {
   margin-bottom: -50px;
   z-index: 100;
+  .navbar-brand {
+    padding: 8px 15px;
+  }
 }
 
 // Jumbotron header Home page
@@ -58,6 +67,7 @@ section {
   p {
     color: white;
   }
+
 }
 
 // Arguments bar
@@ -67,6 +77,8 @@ section {
   flex-wrap: wrap-reverse;
   .logoArg {
     color: $colorGreen;
+    margin-right: 25px;
+    padding: 30px;
   }
 }
 

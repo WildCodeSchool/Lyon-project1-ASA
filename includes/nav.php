@@ -16,27 +16,27 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#Home">Acceuil <span class="sr-only">(current)</span></a></li>
-                <li><a href="#Concept">Notre concept</a></li>
-                <li><a href="#Satff">Notre équipe</a></li>
+                <li><a href="index.php">Acceuil <span class="sr-only">(current)</span></a></li>
+                <li><a href="concept.php">Notre concept</a></li>
+                <li><a href="equipe.php">Notre équipe</a></li>
                 <li class="dropdown">
-                    <a href="#Resto" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos Restaurants <span class="caret"></span></a>
+                    <a href="restos.php" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Nos Restaurants <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#Resto">Lyon</a></li>
+                        <li><a href="resto-Lyon.php">Lyon</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#Resto">La Loupe</a></li>
+                        <li><a href="resto-Lyon.php">La Loupe</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#Resto">Bordeaux</a></li>
+                        <li><a href="resto-Lyon.php">Bordeaux</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#Resto">Toulouse</a></li>
+                        <li><a href="resto-Lyon.php">Toulouse</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#Resto">Strasbourg</a></li>
+                        <li><a href="resto-Lyon.php">Strasbourg</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#Resto">Paris</a></li>
+                        <li><a href="resto-Lyon.php">Paris</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#Resto">Lille</a></li>
+                        <li><a href="resto-Lyon.php">Lille</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#Resto">Others</a></li>
+                        <li><a href="resto-Lyon.php">Others</a></li>
                     </ul>
                 </li>
                 <li><a href="#FAQ"><i class="fa fa-question-circle" aria-hidden="true"></i></a></li>

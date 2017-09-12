@@ -18,12 +18,13 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="subject">Pourquoi voulez nous contactez : </label>
+                                        <label for="subject">Objet du message</label>
                                         <select id="subject" name="subject" class="form-control" required="required">
-                                            <option value="na" selected="">Raison de votre message :</option>
-                                            <option value="service">General Customer Service</option>
-                                            <option value="suggestions">Suggestions</option>
-                                            <option value="product">Product Support</option>
+                                            <option value="Aventure" selected="">Participez à l'aventure</option>
+                                            <option value="Médias">Médias</option>
+                                            <option value="Suggestions">Suggestions</option>
+                                            <option value="Partenariat">Partenariat</option>
+                                            <option value="Autres">Autres</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
@@ -48,7 +49,7 @@
                                         <div class="input-group">
                                         <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
                                         </span>
-                                            <input type="tel" class="form-control" id="Tel" placeholder="Entré votre numéro" required="required" /></div>
+                                            <input type="tel" class="form-control" id="Tel" placeholder="Entré votre numéro" required="required" max="10"/></div>
                                     </div>
 
                                 </div>
