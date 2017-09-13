@@ -23,14 +23,38 @@
 
 <!-- Conteneur General ( all the sections of the Home page ) -->
 <div class="container-fluid">
-
-    <!--§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§! -->
     <section>
-        <?php
+    <!--§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§! -->
+        <div class="row">
+            <div class="col-md-12">
+                <H1>Nos Bug Burgers, partout en France</H1>
+                <p>Vous avez envie d'un bon burger plein de fromages et de fourmis grillées ? On vous comprend! Découvrez l'un de nos restaurants près de chez vous :</p>
+                <ul>
+                    <li>Lyon</li>
+                    <li>Paris</li>
+                    <li>Strasbourg</li>
+                </ul>
+            </div>
+        </div>
 
-            include('./includes/workInProgress.php');
 
-        ?>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+
+                    <img src="https://www.themarysue.com/wp-content/uploads/2016/03/Grumpy-Cat.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <div class="caption">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="/restaurant1.html">
+                                    <p>Bug Burger de Lyon</p>
+                                </a>
+                                <p>114 rue Bugeaud</p>
+                                <p>69006 Lyon</p>
+
+                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            </div>
     </section>
 </div> <!-- End container General -->
 
