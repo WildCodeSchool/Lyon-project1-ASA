@@ -18,9 +18,11 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.php">Acceuil <span class="sr-only">(current)</span></a></li>
                 <li><a href="concept.php">Notre concept</a></li>
+                <li><a href="burgers.php">Nos Burgers</a></li>
                 <li><a href="equipe.php">Notre équipe</a></li>
+                <li><a href="restos.php">Nos restaurants</a></li>
                 <li class="dropdown">
-                    <a href="restos.php" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Nos Restaurants <span class="caret"></span></a>
+                    <a href="restos.php" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">.<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="resto-Lyon.php">Lyon</a></li>
                         <li role="separator" class="divider"></li>
@@ -36,10 +38,10 @@
                         <li role="separator" class="divider"></li>
                         <li><a href="resto-Lyon.php">Lille</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="resto-Lyon.php">Others</a></li>
+                        <li><a href="resto-Lyon.php">Orléans</a></li>
                     </ul>
                 </li>
-                <li><a href="#FAQ"><i class="fa fa-question-circle" aria-hidden="true"></i></a></li>
+                <li><a href="FAQ.php"><i class="fa fa-question-circle" aria-hidden="true"></i></a></li>
                 <li><a href="#Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
