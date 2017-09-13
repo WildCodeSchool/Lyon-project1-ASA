@@ -16,7 +16,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php">Acceuil <span class="sr-only">(current)</span></a></li>
+                <li><a href="index.php">Accueil <span class="sr-only">(current)</span></a></li>
                 <li><a href="concept.php">Notre concept</a></li>
                 <li><a href="burgers.php">Nos Burgers</a></li>
                 <li><a href="equipe.php">Notre équipe</a></li>

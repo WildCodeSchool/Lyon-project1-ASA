@@ -28,7 +28,7 @@
     <!--§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§! -->
     <section>
 
-        <h1>Bienvenue sur la liste de nos différends burgers :</h1>
+        <h1>Découvrez nos différents burgers :</h1>
 
         <div class="containerBurgers">
             <article class="itemBuger">
@@ -60,7 +60,7 @@
                     </div>
                 </header>
                 <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingédients</p>
+                    <p class="ingredients">Les différents ingrédients</p>
                     <ul>
                         <li>Lorem</li>
                         <li>lorem</li>
@@ -79,7 +79,7 @@
                     </div>
                 </header>
                 <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingédients</p>
+                    <p class="ingredients">Les différents ingrédients</p>
                     <ul>
                         <li>Lorem</li>
                         <li>lorem</li>
@@ -98,7 +98,7 @@
                     </div>
                 </header>
                 <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingédients</p>
+                    <p class="ingredients">Les différents ingrédients</p>
                     <ul>
                         <li>Lorem</li>
                         <li>lorem</li>
@@ -117,7 +117,7 @@
                     </div>
                 </header>
                 <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingédients</p>
+                    <p class="ingredients">Les différents ingrédients</p>
                     <ul>
                         <li>Lorem</li>
                         <li>lorem</li>
@@ -136,7 +136,7 @@
                     </div>
                 </header>
                 <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingédients</p>
+                    <p class="ingredients">Les différents ingrédients</p>
                     <ul>
                         <li>Lorem</li>
                         <li>lorem</li>
