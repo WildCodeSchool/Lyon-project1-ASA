@@ -24,8 +24,7 @@ body {
 
 section {
   width: 100%;
-  padding: 50px;
-  border-top: 2px solid lightgrey;
+  padding: 30px;
   text-align: center;
 }
 
@@ -42,30 +41,32 @@ section {
 }
 
 // Jumbotron header Home page
-.jumbotron {
+.jumbotronHeader {
   width: 100%;
   height: 100vh;
   z-index: 5;
-  background: linear-gradient(160deg, rgba(darkgreen, 0.2), rgba(green, 0.2)), url(http://www.foodnavigator.com/var/plain_site/storage/images/publications/food-beverage-nutrition/foodnavigator.com/market-trends/the-ultimate-taste-test-insect-burger-plant-burger-or-meat-burger/11065919-1-eng-GB/The-ultimate-taste-test-Insect-burger-plant-burger-or-meat-burger.jpg);
+  background: url(http://www.foodnavigator.com/var/plain_site/storage/images/publications/food-beverage-nutrition/foodnavigator.com/market-trends/the-ultimate-taste-test-insect-burger-plant-burger-or-meat-burger/11065919-1-eng-GB/The-ultimate-taste-test-Insect-burger-plant-burger-or-meat-burger.jpg);
   background-position: center;
   background-attachment: fixed;
+  filter: saturate(150%);
   background-size: cover;
   position: relative;
   text-align: center;
     .description {
-      width: 98%;
+      width: 100vw;
       position: absolute;
-      top: 70vh;
-      transform: translateY(-70%);
+      top: 7vh;
+      transform: translateY(-7%);
       text-align: center;
-      margin: auto;
+      margin-left: -20px;
       background-color: rgba(black, 0.6);
     }
   h1 {
     color: $colorGreen;
+    text-shadow: 1px 0px 3px black;
   }
   p {
-    color: white;
+    color: lightgrey;
   }
 
 }
@@ -75,10 +76,14 @@ section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap-reverse;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  .itemArg {
+    padding: 50px;
+    margin: auto;
+  }
   .logoArg {
     color: $colorGreen;
-    margin-right: 25px;
-    padding: 30px;
   }
 }
 
@@ -92,11 +97,10 @@ section {
   flex-wrap: wrap;
 }
 
-
 .itemBuger{
   min-width: 450px;
   min-height: 300px;
-  background: linear-gradient(0deg,rgba($colorGreen, 0.4), rgba($colorGreen, 0.1)), url(../images/Burger_slider_1.jpg);
+  background: url(../images/Burger_slider_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -107,11 +111,12 @@ section {
   overflow: hidden;
   transition: 500ms ease-in-out 0s;
   &:active, &:hover {
-      background: linear-gradient(0deg,rgba(black, 0.7), rgba(grey, 0.4)), url(../images/Burger_slider_1.jpg);
+      background: linear-gradient(0deg,rgba($colorGreen, 0.4), rgba($colorGreen, 0.1)), url(../images/Burger_slider_1.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-origin: border-box;
+      filter: saturate(200%);
       .headBurger {
         top: 95%; // 95%
         transform: translateY(-95%);
@@ -120,7 +125,7 @@ section {
         bottom: 15%; // 95%
         transform: translateY(-15%);
       }
-    }
+  }
   .headBurger {
     width: 100%;
     height: auto;
@@ -170,7 +175,30 @@ section {
 }
 
 
+// Page Concept
 
+.jumbotronConcept {
+  width: 100vw;
+  margin-left: -20px;
+  margin-top: 50px;
+  padding-top: 150px;
+  background: linear-gradient(10deg, rgba($colorGrey, 0.9), rgba(black, 0.6)), url(../images/Burger_slider_2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: lightgrey;
+  h1 {
+    color: $colorGreen;
+  }
+}
+
+.conceptDescription {
+  height: 30
+}
+
+.jumbotronEcologie {
+  text-align: right;
+}
 
 
 
@@ -191,7 +219,7 @@ section {
   }
   .Contact {
     width: 100vw;
-    min-height: 70vh;
+    min-height: 75vh;
     margin-left: -15px;
     margin-top: -25px;
     padding-top: 50px;
@@ -200,7 +228,6 @@ section {
     background-attachment: fixed;
     background-size: cover;
   }
-
   .Signature {
     width: 100%;
     bottom: 0px;
@@ -210,8 +237,7 @@ section {
   }
   .navFooter {
     list-style-type: none;
-    margin: 5px;
-    width: 48%;
+    width: 100px;
     margin: auto;
     text-align: center;
     color: grey

@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./images/logoBUG.png">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>BugBurger</title>
+    <title>Burgers | BugBurger</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -54,8 +55,8 @@
                     <div class="nameBurger">
                         <p>Nom burger</p>
                     </div>
-                    <div class="tagBurger">
-                        <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
+                    <div class="tagBurger" title="Ceci est la note attribué en fonction des avis de nos clients">
+                        <i class="fa fa-bug fa-2x" aria-hidden="true" title="Ceci est la note attribué en fonction des avis de nos clients"></i>
                     </div>
                 </header>
                 <div class="infoBurgers">

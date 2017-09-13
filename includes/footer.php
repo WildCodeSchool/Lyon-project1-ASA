@@ -87,6 +87,8 @@
             <li>Bordeaux</li>
             <li>Paris</li>
             <li>Toulouse</li>
+        </ul>
+        <ul class="navFooter">
             <li>Lille</li>
             <li>Strasbourg</li>
             <li>Orléans</li>

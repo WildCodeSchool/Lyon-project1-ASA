@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./images/logoBUG.png">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>BugBurger</title>
+    <title>Acceuil | BugBurger</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -20,12 +21,12 @@
     ?>
 
     <!-- Jumbotron -->
-    <div class="jumbotron">
+    <div class="jumbotron jumbotronHeader">
         <div class="container-fluid">
             <div class="description">
                 <h1>Bug Burger, 1<sup>er</sup> fast-food d’insecte en France</h1>
                 <p> Bug Burger : une expérience délicieuse, pour la planète aussi !</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                <p><a class="btn btn-default btn-lg" href="#" role="button">Voir notre concept</a></p>
             </div>
         </div>
     </div>
@@ -35,22 +36,12 @@
 <div class="container-fluid">
 
 <!-- Section Arguments -->
-<section id="ArgumentsRow">
-    <div class="containerArg">
-        <article class="itemArg">
-            <i class="fa fa-leaf fa-5x logoArg" aria-hidden="true"></i>
-            <h4>Une alternative écologique.</h4>
-        </article>
-        <article class="itemArg">
-            <i class="fa fa-rocket fa-5x logoArg" aria-hidden="true"></i>
-            <h4>Un concept innovant.</h4>
-        </article>
-        <article class="itemArg">
-            <i class="fa fa-bug fa-5x logoArg" aria-hidden="true"></i>
-            <h4>Une expériences <inédites class=""></inédites></h4>
-        </article>
-    </div>
-</section>
+
+    <?php
+
+        include('./includes/argumentsBar.php');
+
+    ?>
 
 <!-- Section About us -->
 <section id="AboutUs">
