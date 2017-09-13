@@ -238,15 +238,13 @@
 
         </div>
     </section>
-    <section>
-        <div class="containerMaps">
+    <section class="container">
             <div class="titleMaps">
                 <h2>Trouvez votre restaurant BugBurger : </h2>
             </div>
             <div class="containerMaps">
-                <iframe src="https://www.google.fr/maps/d/embed?mid=17_9_9l9NcjnUKtyUikTe64EW150" width="50%" height="480"></iframe>
+                <div id="map-canvas-left"></div>
             </div>
-        </div>
     </section>
 </div> <!-- End container General -->
 
@@ -256,8 +254,9 @@
 <?php
 include('./includes/footer.php');
 ?>
-
-<script src='script/app.js'></script>
+<script type="text/javascript" src='script/maps.js'></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhrQmUoK-VRkBU9oUqkUWQVOwp3l1Emzw&callback=initialize"></script>
+<script type="text/javascript" src='script/app.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
