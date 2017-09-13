@@ -22,9 +22,8 @@
         
         - Bootsrap 3.3.7
         
-        - Javascript
+        - Javascript / jQuery
         
-        - JQuery
       
     * Period : 
     ----------
