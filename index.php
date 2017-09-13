@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <div class="description">
                 <h1>Bug Burger, 1<sup>er</sup> fast-food d’insecte en France</h1>
-                <p> Bug Burger : une expérience délicieuse, pour la planète aussi !</p>
+                <p> Une expérience délicieuse pour vous, et bonne pour la planète aussi !</p>
                 <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
             </div>
         </div>
@@ -39,15 +39,15 @@
     <div class="containerArg">
         <article class="itemArg">
             <i class="fa fa-leaf fa-5x logoArg" aria-hidden="true"></i>
-            <h4>Une alternative écologique.</h4>
+            <h4>Une alternative écologique</h4>
         </article>
         <article class="itemArg">
             <i class="fa fa-rocket fa-5x logoArg" aria-hidden="true"></i>
-            <h4>Un concept innovant.</h4>
+            <h4>Un concept innovant</h4>
         </article>
         <article class="itemArg">
             <i class="fa fa-bug fa-5x logoArg" aria-hidden="true"></i>
-            <h4>Une expériences <inédites class=""></inédites></h4>
+            <h4>Une expérience <inédites class="">inédite</inédites></h4>
         </article>
     </div>
 </section>
@@ -63,7 +63,7 @@
 <!-- Section Our best burgers -->
 <section id="BestBurgers">
 
-    <h2>Nos best burgers</h2>
+    <h2>Les recettes de nos burgers</h2>
 
 
 </section>
