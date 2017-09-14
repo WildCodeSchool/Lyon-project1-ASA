@@ -175,7 +175,6 @@ section {
 
 
 // Page Concept
-
 .jumbotronConcept {
   width: 100vw;
   margin-left: -20px;
@@ -201,6 +200,39 @@ section {
 
 
 
+// Page Restos
+.containerMaps {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+}
+
+  // Maps
+  #map-canvas-left {
+    height: 450px;
+    width: 50vw;
+  }
+  #iw_container .iw_title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .iw_content {
+    padding: 15px 15px 15px 0;
+  }
+
+  #map-canvas-left {
+    height: 450px;
+    width: 70vw;
+  }
+  #iw_containerMaps .iw_title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .iw_content {
+    padding: 15px 15px 15px 0;
+  }
 
 
 // Footer ( for all pages of website )
