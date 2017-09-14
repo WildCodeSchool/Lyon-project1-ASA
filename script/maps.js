@@ -36,7 +36,7 @@ var markersDataLeft = [
         lng: 1.444209,
         name: "BugBurger Toulouse",
         address1:"Quinta dos Patos, n.º 2",
-        postalCode: "69000" // don't insert comma in the last item of each marker
+        postalCode: "31000" // don't insert comma in the last item of each marker
     },
     {
         lat: 48.573405,
@@ -50,7 +50,7 @@ var markersDataLeft = [
         lng: 3.057256,
         name: "BugBurger Lille",
         address1:"Quinta dos Patos, n.º 2",
-        postalCode: "69000" // don't insert comma in the last item of each marker
+        postalCode: "59000" // don't insert comma in the last item of each marker
     },
     {
         lat: 48.471285,
@@ -64,14 +64,14 @@ var markersDataLeft = [
         lng: -0.57918,
         name: "BugBurger Bordeaux",
         address1:"Quinta dos Patos, n.º 2",
-        postalCode: "69000" // don't insert comma in the last item of each marker
+        postalCode: "33000" // don't insert comma in the last item of each marker
     },
     {
         lat: 47.902964,
         lng: 1.909251,
         name: "BugBurger Orléans",
         address1:"Rua dos Balneários do Complexo Desportivo",
-        postalCode: "3830-225 Gafanha da Nazaré" // don't insert comma in the last item of each marker
+        postalCode: "45000" // don't insert comma in the last item of each marker
     } // don't insert comma in the last item
 ];
 
