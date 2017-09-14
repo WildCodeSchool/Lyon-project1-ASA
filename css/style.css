@@ -22,31 +22,48 @@ section {
   margin-bottom: -50px;
   z-index: 100; }
   .navbar .navbar-brand {
-    padding: 8px 15px; }
+    padding: 0px 15px; }
 
 .jumbotronHeader {
   width: 100%;
-  height: 100vh;
-  z-index: 5;
-  background: url(https://goo.gl/RLQ9fk);
-  background-position: center;
-  background-attachment: fixed;
+  height: 70vh;
+  background: url(../images/BurgerHeader.jpg);
+  filter: contrast(110%);
+  border: 1px solid black;
+  padding: 1px;
+  background-color: black;
+  background-position: bottom right;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  z-index: 10;
+  margin-bottom: -2px;
+  oveflow-y: hidden; }
   .jumbotronHeader .description {
-    width: 100vw;
-    position: absolute;
-    top: 7vh;
-    transform: translateY(-7%);
+    width: 90vw;
+    height: 65vh;
+    margin-left: -35%;
+    margin-top: 43px;
+    color: white;
     text-align: center;
-    margin-left: -20px;
-    background-color: rgba(0, 0, 0, 0.6); }
-  .jumbotronHeader h1 {
-    color: #1a913e;
-    text-shadow: 1px 0px 3px black; }
+    -webkit-transform: skewX(-12deg);
+    transform: skewX(-12deg);
+    background-color: rgba(26, 145, 62, 0.85);
+    z-index: 5; }
+  .jumbotronHeader .accrocheHeader {
+    margin: auto;
+    padding-left: 30%;
+    position: relative;
+    top: 55%;
+    transform: translatey(-55%); }
+  .jumbotronHeader h2 {
+    color: lightgrey;
+    text-shadow: 1px 0px 3px black;
+    font-size: 3em; }
   .jumbotronHeader p {
-    color: lightgrey; }
+    color: black; }
 
 .containerArg {
   display: flex;
@@ -77,7 +94,6 @@ section {
   background-position: center;
   background-origin: border-box;
   border: 2px solid black;
-  margin: 5px;
   z-index: 10;
   overflow: hidden;
   transition: 500ms ease-in-out 0s; }
@@ -105,23 +121,24 @@ section {
     transform: translateY(-5%);
     transition: 500ms ease-in-out 0s; }
     .itemBuger .headBurger .nameBurger {
-      width: 250px;
+      width: 200px;
       height: 50px;
-      background-color: rgba(26, 145, 62, 0.8);
-      color: white;
+      background-color: rgba(211, 211, 211, 0.9);
+      color: dark;
       font-family: sans-serif;
       border-radius: 15px;
       font-size: 1.5em;
       padding-top: 10px;
-      margin-top: 5px; }
+      margin-top: 5px;
+      border: 1px solid grey; }
     .itemBuger .headBurger .tagBurger {
-      min-width: 60px;
-      height: 60px;
+      min-width: 50px;
+      height: 50px;
       background-color: rgba(26, 145, 62, 0.8);
-      color: white;
+      color: black;
       font-family: sans-serif;
       border-radius: 100px;
-      padding-top: 17px; }
+      padding-top: 12px; }
   .itemBuger .infoBurgers {
     width: 100%;
     min-height: 250px;

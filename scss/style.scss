@@ -1,3 +1,4 @@
+
 // Work css
 $WorkColor: red;
 $colorGreen: rgb(26, 145, 62);
@@ -36,36 +37,59 @@ section {
   margin-bottom: -50px;
   z-index: 100;
   .navbar-brand {
-    padding: 8px 15px;
+    padding: 0px 15px;
   }
+}
+
+
+.enjoy-css {
+
 }
 
 // Jumbotron header Home page
 .jumbotronHeader {
   width: 100%;
-  height: 100vh;
-  z-index: 5;
-  background: url(https://goo.gl/RLQ9fk);
-  background-position: center;
-  background-attachment: fixed;
+  height: 70vh;
+  background: url(../images/BurgerHeader.jpg);
+  filter: contrast(110%);
+  border: 1px solid black;
+  padding: 1px;
+  background-color: black;
+  background-position: bottom right;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   text-align: center;
+  z-index: 10;
+  margin-bottom: -2px;
+  oveflow-y: hidden;
     .description {
-      width: 100vw;
-      position: absolute;
-      top: 7vh;
-      transform: translateY(-7%);
+      width: 90vw;
+      height: 65vh;
+      margin-left: -35%;
+      margin-top: 43px;
+      color: rgba(255,255,255,1);
       text-align: center;
-      margin-left: -20px;
-      background-color: rgba(black, 0.6);
+      -webkit-transform: skewX(-12deg);
+      transform: skewX(-12deg);
+      background-color: rgba($colorGreen, 0.85);
+      z-index: 5;
     }
-  h1 {
-    color: $colorGreen;
+    .accrocheHeader {
+      margin: auto;
+      padding-left: 30%;
+      position: relative;
+      top: 55%;
+      transform: translatey(-55%);
+    }
+  h2 {
+    color: lightgrey;
     text-shadow: 1px 0px 3px black;
+    font-size: 3em;
   }
   p {
-    color: lightgrey;
+    color: black;
   }
 
 }
@@ -105,7 +129,6 @@ section {
   background-position: center;
   background-origin: border-box;
   border: 2px solid black;
-  margin: 5px;
   z-index: 10;
   overflow: hidden;
   transition: 500ms ease-in-out 0s;
@@ -137,24 +160,25 @@ section {
     transition: 500ms ease-in-out 0s;
     // Je vais définir une position bottom, comme ça lors du HOVER le headBurger se déplacera au top..
     .nameBurger {
-      width: 250px;
+      width: 200px;
       height: 50px;
-      background-color: rgba($colorGreen, 0.8);
-      color: white;
+      background-color: rgba(lightgrey, 0.9);
+      color: dark;
       font-family: sans-serif;
       border-radius: 15px;
       font-size: 1.5em;
       padding-top: 10px;
       margin-top: 5px;
+      border: 1px solid grey;
     }
     .tagBurger {
-      min-width: 60px;
-      height: 60px;
+      min-width: 50px;
+      height: 50px;
       background-color: rgba($colorGreen, 0.8);
-      color: white;
+      color: black;
       font-family: sans-serif;
       border-radius: 100px;
-      padding-top: 17px;
+      padding-top: 12px;
     }
   }
   .infoBurgers {

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./images/logoBUG.png">
+    <link rel="shortcut icon" href="./images/logobug.png">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Acceuil | BugBurger</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
@@ -21,10 +21,11 @@
     <!-- Jumbotron -->
     <div class="jumbotron jumbotronHeader">
         <div class="container-fluid">
-            <div class="description">
-                <h1>Bug Burger, 1<sup>er</sup> fast-food d’insecte en France</h1>
-                <p> Une expérience délicieuse pour vous, et bonne pour la planète aussi !</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            <div class="container-fluid description">
+                <div class="accrocheHeader">
+                    <h2>Bug Burger, 1<sup>er</sup> fast-food d’insecte en France</h2>
+                    <p> Une expérience délicieuse pour vous, et bonne pour la planète aussi !</p>
+                </div>
             </div>
         </div>
     </div>

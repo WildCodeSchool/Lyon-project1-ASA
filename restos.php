@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./images/logoBUG.png">
+    <link rel="shortcut icon" href="./images/logobug.png">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Restaurants | BugBurger</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
@@ -31,41 +31,11 @@
             </div>
         </div>
 
-
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
-
-                    <img src="https://www.themarysue.com/wp-content/uploads/2016/03/Grumpy-Cat.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="thumbnail">
-
-                    <img src="https://www.themarysue.com/wp-content/uploads/2016/03/Grumpy-Cat.jpg" alt="Restaurant Bug Burger" style="width:100%">
-                    <div class="caption">
-
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="/restaurant1.html">
@@ -78,19 +48,15 @@
                             <div class="col-md-6">
                                 <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
                                 <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-
-                    <img src="https://www.themarysue.com/wp-content/uploads/2016/03/Grumpy-Cat.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
-
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="/restaurant1.html">
@@ -103,19 +69,15 @@
                             <div class="col-md-6">
                                 <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
                                 <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-
-                    <img src="https://www.themarysue.com/wp-content/uploads/2016/03/Grumpy-Cat.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
-
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="/restaurant1.html">
@@ -128,19 +90,15 @@
                             <div class="col-md-6">
                                 <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
                                 <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-
-                    <img src="https://www.themarysue.com/wp-content/uploads/2016/03/Grumpy-Cat.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
-
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="/restaurant1.html">
@@ -153,19 +111,15 @@
                             <div class="col-md-6">
                                 <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
                                 <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-
-                    <img src="https://www.themarysue.com/wp-content/uploads/2016/03/Grumpy-Cat.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
-
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="/restaurant1.html">
@@ -178,19 +132,15 @@
                             <div class="col-md-6">
                                 <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
                                 <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-
-                    <img src="https://www.themarysue.com/wp-content/uploads/2016/03/Grumpy-Cat.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
-
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="/restaurant1.html">
@@ -203,38 +153,13 @@
                             <div class="col-md-6">
                                 <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
                                 <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
 
-                    <img src="https://www.themarysue.com/wp-content/uploads/2016/03/Grumpy-Cat.jpg" alt="Restaurant Bug Burger" style="width:100%">
-                    <div class="caption">
 
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
 
         </div>
     </section>
