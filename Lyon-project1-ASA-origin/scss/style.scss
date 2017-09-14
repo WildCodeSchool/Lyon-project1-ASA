@@ -1,0 +1,125 @@
+// Work css
+$WorkColor: red;
+$colorGreen: rgb(26, 145, 62);
+$colorGrey: rgba(black, 0.8);
+
+.WorkClass {
+  border: 1px solid $WorkColor;
+  background-color: rgba($WorkColor, 0.4);
+}
+
+.WorkProgress {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-color: rgba($WorkColor, 0.6);
+}
+// end work css
+
+// CSS general ( no selectors or id's )
+* { box-sizing: border-box; }
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  width: 100%;
+  padding: 50px;
+  border-top: 2px solid lightgrey;
+  text-align: center;
+}
+
+
+//-------------------------------------------------------------------------------------------------------------------------
+
+// Menu Navigation Responsive
+.navbar  {
+  margin-bottom: -50px;
+  z-index: 100;
+  .navbar-brand {
+    padding: 8px 15px;
+  }
+}
+
+// Jumbotron header Home page
+.jumbotron {
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  background: linear-gradient(160deg, rgba(darkgreen, 0.2), rgba(green, 0.2)), url(http://www.foodnavigator.com/var/plain_site/storage/images/publications/food-beverage-nutrition/foodnavigator.com/market-trends/the-ultimate-taste-test-insect-burger-plant-burger-or-meat-burger/11065919-1-eng-GB/The-ultimate-taste-test-Insect-burger-plant-burger-or-meat-burger.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+    .description {
+      width: 98%;
+      position: absolute;
+      top: 70vh;
+      transform: translateY(-70%);
+      text-align: center;
+      margin: auto;
+      background-color: rgba(black, 0.6);
+    }
+  h1 {
+    color: $colorGreen;
+  }
+  p {
+    color: white;
+  }
+
+}
+
+// Arguments bar
+.containerArg {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  .logoArg {
+    color: $colorGreen;
+    margin-right: 25px;
+    padding: 30px;
+  }
+}
+
+// Footer ( for all pages of website )
+.Well-endPage {
+  width: 100%;
+  height: auto;
+  background-color: $colorGrey;
+  margin-bottom: -50px;
+  padding: 25px 10px;
+  .mainFooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .Contact {
+    width: 100vw;
+    min-height: 70vh;
+    margin-left: -15px;
+    margin-top: -25px;
+    padding-top: 50px;
+    background: linear-gradient(160deg, rgba(darkgreen, 0.6), rgba(yellow, 0.3)), url(http://www.foodnavigator.com/var/plain_site/storage/images/publications/food-beverage-nutrition/foodnavigator.com/market-trends/the-ultimate-taste-test-insect-burger-plant-burger-or-meat-burger/11065919-1-eng-GB/The-ultimate-taste-test-Insect-burger-plant-burger-or-meat-burger.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .Signature {
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    margin-top: 25px;
+    color: $colorGreen;
+  }
+  .navFooter {
+    list-style-type: none;
+    margin: 5px;
+    width: 48%;
+    margin: auto;
+    text-align: center;
+    color: grey
+  }
+}

@@ -20,9 +20,8 @@
                                     <div class="form-group">
                                         <label for="subject">Objet du message</label>
                                         <select id="subject" name="subject" class="form-control" required="required">
-                                            <option value="Restaurant" selected="">Question sur un restaurant</option>
-                                            <option value="Aventure">Participez à l'aventure</option>
-                                            <option value="Presse">Presse</option>
+                                            <option value="Aventure" selected="">Participez à l'aventure</option>
+                                            <option value="Médias">Médias</option>
                                             <option value="Suggestions">Suggestions</option>
                                             <option value="Partenariat">Partenariat</option>
                                             <option value="Autres">Autres</option>
@@ -34,23 +33,23 @@
                                         <div class="input-group">
                                         <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span>
                                         </span>
-                                            <input type="text" class="form-control" id="name" placeholder="Prénom et nom" required="required" /></div>
+                                            <input type="text" class="form-control" id="name" placeholder="Vos Nom et Prénom" required="required" /></div>
                                     </div>
                                     <div class="form-group">
                                         <label for="email">
-                                            Votre email</label>
+                                            Email Address</label>
                                         <div class="input-group">
                                         <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                         </span>
-                                            <input type="email" class="form-control" id="email" placeholder="Votre adresse email" required="required" /></div>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
                                     </div>
                                     <div class="form-group">
                                         <label for="Tel">
-                                            Votre numéro de téléphone</label>
+                                            Your phone number</label>
                                         <div class="input-group">
                                         <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
                                         </span>
-                                            <input type="tel" class="form-control" id="Tel" placeholder="Votre numéro" required="required" max="10"/></div>
+                                            <input type="tel" class="form-control" id="Tel" placeholder="Entré votre numéro" required="required" max="10"/></div>
                                     </div>
 
                                 </div>
@@ -64,7 +63,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                                        Envoyer !</button>
+                                        Send Message</button>
                                 </div>
                             </div>
                         </form>
@@ -77,7 +76,7 @@
 
     <div id="endPage" class="mainFooter">
         <ul class="navFooter">
-            <li>Accueil</li>
+            <li>Acceuil</li>
             <li>Concept</li>
             <li>Equipe</li>
             <li>FAQ</li>
@@ -88,8 +87,6 @@
             <li>Bordeaux</li>
             <li>Paris</li>
             <li>Toulouse</li>
-        </ul>
-        <ul class="navFooter">
             <li>Lille</li>
             <li>Strasbourg</li>
             <li>Orléans</li>
