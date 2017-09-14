@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse    navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.php">
-                <i class="fa fa-bug fa-2x logoHeader" aria-hidden="true"></i>
+                <img src="./images/logobug.png" width="70px" height="50px" alt="Logo">
             </a>
         </div>
 
