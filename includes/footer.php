@@ -88,15 +88,13 @@
             <li>Bordeaux</li>
             <li>Paris</li>
             <li>Toulouse</li>
-        </ul>
-        <ul class="navFooter">
             <li>Lille</li>
             <li>Strasbourg</li>
             <li>Orléans</li>
             <li>La Loupe</li>
         </ul>
-    </div>
-    <div class="Signature">
-        <p>© Copyrights BugBurger - 2017</p>
+        <div class="Signature">
+            <p>© Copyrights BugBurger - 2017</p>
+        </div>
     </div>
 </footer>

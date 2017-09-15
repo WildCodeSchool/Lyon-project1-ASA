@@ -20,13 +20,17 @@ section {
 
 .navbar {
   margin-bottom: -50px;
-  z-index: 100; }
+  z-index: 100;
+  height: 60px;
+  padding-top: 4px;
+  background-color: lightgrey;
+  border-bottom: 1px solid grey; }
   .navbar .navbar-brand {
-    padding: 0px 15px; }
+    padding: 0 15px; }
 
 .jumbotronHeader {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   background: url(../images/BurgerHeader.jpg);
   filter: contrast(110%);
   border: 1px solid black;
@@ -38,12 +42,11 @@ section {
   background-size: cover;
   position: relative;
   text-align: center;
-  z-index: 10;
   margin-bottom: -2px;
-  oveflow-y: hidden; }
+  overflow-y: hidden; }
   .jumbotronHeader .description {
     width: 90vw;
-    height: 65vh;
+    height: 95vh;
     margin-left: -35%;
     margin-top: 43px;
     color: white;
@@ -60,7 +63,7 @@ section {
     transform: translatey(-55%); }
   .jumbotronHeader h2 {
     color: lightgrey;
-    text-shadow: 1px 0px 3px black;
+    text-shadow: 1px 1px 3px black;
     font-size: 3em; }
   .jumbotronHeader p {
     color: black; }
@@ -78,12 +81,11 @@ section {
     color: #1a913e; }
 
 .containerBurgers {
-  width: 100%;
   min-height: 90vh;
-  padding: 30px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-top: 100px; }
 
 .itemBuger {
   min-width: 450px;
@@ -124,7 +126,7 @@ section {
       width: 200px;
       height: 50px;
       background-color: rgba(211, 211, 211, 0.9);
-      color: dark;
+      color: black;
       font-family: sans-serif;
       border-radius: 15px;
       font-size: 1.5em;
@@ -153,6 +155,18 @@ section {
     z-index: 5;
     transition: 500ms ease-in-out 0s; }
 
+.containerFAQ {
+  height: 60vh;
+  padding-top: 60px; }
+  .containerFAQ h1 {
+    text-align: justify;
+    color: #1a913e;
+    text-shadow: 1px 1px 1px black; }
+  .containerFAQ p {
+    text-align: justify;
+    font-size: 1.5em;
+    padding-bottom: 15px; }
+
 .jumbotronConcept {
   width: 100vw;
   margin-left: -20px;
@@ -167,21 +181,23 @@ section {
     color: #1a913e; }
 
 .conceptDescription {
-  height: 30; }
+  height: 30vh; }
 
 .jumbotronEcologie {
   text-align: right; }
 
 .containerMaps {
-  width: 90%;
+  width: 110vw;
   display: flex;
   justify-content: center;
   padding: 20px;
-  margin: auto; }
+  margin-left: -70px; }
 
 #map-canvas-left {
-  height: 550px;
-  width: 60vw; }
+  margin: auto;
+  height: 90vh;
+  width: 100%;
+  border-radius: 10px; }
 
 #iw_container .iw_title {
   font-size: 16px;
@@ -190,49 +206,44 @@ section {
 .iw_content {
   padding: 15px 15px 15px 0; }
 
-#map-canvas-left {
-  height: 450px;
-  width: 70vw; }
-
-#iw_containerMaps .iw_title {
-  font-size: 16px;
-  font-weight: bold; }
-
-.iw_content {
-  padding: 15px 15px 15px 0; }
-
 .Well-endPage {
   width: 100%;
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.8);
+  height: 25vh;
   margin-bottom: -50px;
   padding: 25px 10px; }
   .Well-endPage .mainFooter {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: -20px; }
   .Well-endPage .Contact {
     width: 100vw;
-    min-height: 75vh;
+    min-height: 70vh;
     margin-left: -15px;
     margin-top: -25px;
     padding-top: 50px;
-    background: linear-gradient(160deg, rgba(0, 100, 0, 0.6), rgba(255, 255, 0, 0.3)), url(https://goo.gl/RLQ9fk);
+    background: linear-gradient(160deg, rgba(0, 100, 0, 0.6), rgba(0, 0, 0, 0.8)), url(https://goo.gl/RLQ9fk);
     background-position: center;
     background-attachment: fixed;
     background-size: cover; }
   .Well-endPage .Signature {
     width: 100%;
-    bottom: 0px;
+    bottom: 0;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 10px;
     color: #1a913e; }
   .Well-endPage .navFooter {
     list-style-type: none;
-    width: 100px;
+    width: 200px;
     margin: auto;
     text-align: center;
-    color: grey; }
+    color: white;
+    background-color: rgba(128, 128, 128, 0.8);
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px; }
 
 /*# sourceMappingURL=style.css.map */

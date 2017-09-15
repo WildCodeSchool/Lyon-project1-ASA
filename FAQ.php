@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./images/logobug.png">
@@ -26,23 +26,23 @@
 <div class="container-fluid">
 
     <section>
-        <div class="container" >
+        <div class="container containerFAQ">
             <h1>Foire Aux Questions</h1>
             <p>Nous avons répondu à vos questions les plus pertinentes ... et courantes !</p>
-            <details>
+            <details open>
+                <summary><h2>Ma question est la suivante : blablaba</h2></summary>
+                <fieldset>
+                    <legend>Voici ma réponse : blablablablabla</legend>
+                </fieldset>
+            </details>
+            <details open>
                 <summary><h2>Ma question est la suivante : blablaba</h2></summary>
                 <fieldset>
                     <legend>Voici ma réponse : blablablablabla</legend>
                 </fieldset>
             </details>
             <details>
-                <summary><h2>Ma question est la suivante : blablaba</h2></summary>
-                <fieldset>
-                    <legend>Voici ma réponse : blablablablabla</legend>
-                </fieldset>
-            </details>
-            <details>
-                <summary><h2>Ma question est la suivante : blablaba</h2></summary>
+                <summary open><h2>Ma question est la suivante : blablaba</h2></summary>
                 <fieldset>
                     <legend>Voici ma réponse : blablablablabla</legend>
                 </fieldset>

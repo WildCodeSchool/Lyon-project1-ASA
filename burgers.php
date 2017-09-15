@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./images/logobug.png">
@@ -26,125 +26,138 @@
 <div class="container-fluid">
 
     <!--§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§! -->
-    <section>
+    <section class="containerBurgers">
 
         <h1>Découvrez nos différents burgers :</h1>
 
-        <div class="containerBurgers">
-            <article class="itemBuger">
-                <header class="headBurger">
-                    <div class="nameBurger">
-                        <p>Nom burger</p>
+        <div>
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="/restaurant1.html">
+                                    <p>Bug Burger de Lyon</p>
+                                </a>
+                                <p>114 rue Bugeaud</p>
+                                <p>69006 Lyon</p>
+                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
+                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tagBurger">
-                        <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
-                    </div>
-                </header>
-                <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingédients</p>
-                    <ul>
-                        <li>Lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>Lorem</li>
-                    </ul>
                 </div>
-            </article>
-            <article class="itemBuger">
-                <header class="headBurger">
-                    <div class="nameBurger">
-                        <p>Nom burger</p>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="/restaurant1.html">
+                                    <p>Bug Burger de Lyon</p>
+                                </a>
+                                <p>114 rue Bugeaud</p>
+                                <p>69006 Lyon</p>
+                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
+                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tagBurger" title="Ceci est la note attribué en fonction des avis de nos clients">
-                        <i class="fa fa-bug fa-2x" aria-hidden="true" title="Ceci est la note attribué en fonction des avis de nos clients"></i>
-                    </div>
-                </header>
-                <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingrédients</p>
-                    <ul>
-                        <li>Lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>Lorem</li>
-                    </ul>
                 </div>
-            </article>
-            <article class="itemBuger">
-                <header class="headBurger">
-                    <div class="nameBurger">
-                        <p>Nom burger</p>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="/restaurant1.html">
+                                    <p>Bug Burger de Lyon</p>
+                                </a>
+                                <p>114 rue Bugeaud</p>
+                                <p>69006 Lyon</p>
+                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
+                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tagBurger">
-                        <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
-                    </div>
-                </header>
-                <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingrédients</p>
-                    <ul>
-                        <li>Lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>Lorem</li>
-                    </ul>
                 </div>
-            </article>
-            <article class="itemBuger">
-                <header class="headBurger">
-                    <div class="nameBurger">
-                        <p>Nom burger</p>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="/restaurant1.html">
+                                    <p>Bug Burger de Lyon</p>
+                                </a>
+                                <p>114 rue Bugeaud</p>
+                                <p>69006 Lyon</p>
+                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
+                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tagBurger">
-                        <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
-                    </div>
-                </header>
-                <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingrédients</p>
-                    <ul>
-                        <li>Lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>Lorem</li>
-                    </ul>
                 </div>
-            </article>
-            <article class="itemBuger">
-                <header class="headBurger">
-                    <div class="nameBurger">
-                        <p>Nom burger</p>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="/restaurant1.html">
+                                    <p>Bug Burger de Lyon</p>
+                                </a>
+                                <p>114 rue Bugeaud</p>
+                                <p>69006 Lyon</p>
+                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
+                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tagBurger">
-                        <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
-                    </div>
-                </header>
-                <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingrédients</p>
-                    <ul>
-                        <li>Lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>Lorem</li>
-                    </ul>
                 </div>
-            </article>
-            <article class="itemBuger">
-                <header class="headBurger">
-                    <div class="nameBurger">
-                        <p>Nom burger</p>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="/restaurant1.html">
+                                    <p>Bug Burger de Lyon</p>
+                                </a>
+                                <p>114 rue Bugeaud</p>
+                                <p>69006 Lyon</p>
+                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
+                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tagBurger">
-                        <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
-                    </div>
-                </header>
-                <div class="infoBurgers">
-                    <p class="ingredients">Les différents ingrédients</p>
-                    <ul>
-                        <li>Lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>Lorem</li>
-                    </ul>
                 </div>
-            </article>
+            </div>
 
         </div>
 
