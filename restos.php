@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./images/logobug.png">
@@ -22,7 +22,7 @@
 
 <!-- Conteneur General ( all the sections of the Home page ) -->
 <div class="container-fluid">
-    <section class="container">
+    <section class="container-fluid">
         <!--§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§! -->
         <div class="row">
             <div class="col-md-12">
@@ -158,12 +158,9 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </section>
-    <section class="container">
+    <section>
             <div class="titleMaps">
                 <h2>Trouvez votre restaurant BugBurger : </h2>
             </div>

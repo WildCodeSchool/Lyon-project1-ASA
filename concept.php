@@ -1,7 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <!-- TEST AJOUT FONT UBUNTU -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="shortcut icon" href="./images/logobug.png">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Concept | BugBurger</title>
@@ -34,26 +36,34 @@
     </div>
     <div class="container">
         <div class="row conceptDescription">
-            <h2>10 ans de recherche et développement</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Pourquoi manger des insectes ?</h2>
+            <p>Il existe de très nombreuses raisons de consommer des insectes; non seulement ils sont bons pour votre santé avec des apports nutritionnels importants mais leur élevage permet de préserver notre planète ! </p>
         </div>
 
         <div class="row conceptDescription">
-            <h2>Un apport en proteines sans précédent</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Un apport nutritionnel sans précédent</h2>
+            <p>Les insectes sont une source importante de protéines – plus importante même que celles des viandes dites « classiques » ! Savez-vous par exemple que manger 5 criquets suffit pour avoir l’équivalence en termes de protéines d’un steak de boeuf entier?! <br />
+                Les insectes sont aussi une source importante de vitamines, omégas 3 et 6, et minéraux.
+            </p>
+            <p>Les insectes contiennent également moins de graisses que les autres types de viandes : ils contiennent en moyenne 16% de matières grasses, contrairement à la viande traditionnelle qui en contiendraient près de la moitié (48% en moyenne).
+            </p>
+            <p>Les insectes sont également source de glucides, c’est-à-dire qu’ils apportent de l’énergie, nécessaires pour le fonctionnement de notre organisme – contrairement à la viande « traditionnelle » qui n’en possède pas.
+            </p>
         </div>
     </div>
 
     <?php
 
-    include('./includes/argumentsBar.php');
+    include('./includes/argumentsBarConcept.php');
 
     ?>
 
     <div class="jumbotron jumbotronEcologie">
         <div class="container">
             <h2 class="display-3">Une solution écologique pour notre planète</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p class="lead">Sur le plan écologique, les insectes ont un taux de croissance très rapide et leur élevage est facile et peu coûteux : peu gourmands en nourriture, 2 kg d’aliments seulement sont nécessaires pour produire 1 kg d’insectes, alors que les bovins en exigent 8 kg pour produire cette même quantité. <br/>
+                L’élevage industriel d’insectes comestibles a de nombreux avantages : peu gourmands en nourriture et en eau, les insectes s’élèvent en étages et ne rejettent que très peu de gaz à effet de serre. De plus, alors que seulement 5 mètres carrés sont nécessaires pour élever 100 kilos d’insectes, 50 mètres carrés sont nécessaires pour produire la même quantité de viande de bœuf !
+
             </p>
         </div>
     </div>
