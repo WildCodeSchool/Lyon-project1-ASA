@@ -155,6 +155,54 @@ section {
     z-index: 5;
     transition: 500ms ease-in-out 0s; }
 
+
+  /* PAGE EQUIPE */
+.containerFounder {
+  font-family: 'Ubuntu';
+  padding-top: 60px;
+}
+
+.containerFounder h2 {
+  font-size : 3em;
+  font-weight: bold;
+
+}
+.containerFounder div {
+  padding-top: 20px;
+
+    }
+
+.containerFounder p {
+  font-size : 20px;
+  margin-top: 50px;
+}
+
+.containerFounder span {
+  color: #1a913e;
+  font-size:1.5em;
+}
+
+.containerFounder i {
+  line-height: 20px;
+}
+
+.containerTeam {
+  font-family: 'Ubuntu';
+}
+.containerTeam h3 {
+  color: #1a913e;
+}
+
+.containerTeam .thumbnail {
+  border:1px solid #1a913e;
+}
+
+.containerTeam i {
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+/* PAGE FAQ */
 .containerFAQ {
   height: 60vh;
   padding-top: 60px; }
@@ -181,7 +229,9 @@ section {
     color: #1a913e; }
 
 .conceptDescription {
-  height: 30vh; }
+  height: 30vh;
+
+}
 
 .jumbotronEcologie {
   text-align: right; }
