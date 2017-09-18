@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:500|Open+Sans');
 
 // Work css
 $WorkColor: red;
@@ -29,6 +30,22 @@ section {
   text-align: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-family: 'Hind', sans-serif;
+
+}
+
+p {
+
+  font-family: 'Open sans', sans-serif;
+
+}
 
 //-------------------------------------------------------------------------------------------------------------------------
 
@@ -163,7 +180,7 @@ section {
       width: 200px;
       height: 50px;
       background-color: rgba(lightgrey, 0.9);
-      color: dark;
+      color: black;
       font-family: sans-serif;
       border-radius: 15px;
       font-size: 1.5em;
@@ -214,15 +231,9 @@ section {
   }
 }
 
-.conceptDescription {
-  height: 30
-}
-
 .jumbotronEcologie {
   text-align: right;
 }
-
-
 
 // Page Restos
 .containerMaps {
