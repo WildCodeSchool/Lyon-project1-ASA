@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Hind:500|Open+Sans");
 .WorkClass {
   border: 1px solid red;
   background-color: rgba(255, 0, 0, 0.4); }
@@ -18,12 +19,24 @@ section {
   padding: 30px;
   text-align: center; }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Hind', sans-serif;
+  color: goldenrod;
+  text-shadow: 0 0 1px black; }
+
+li,
+p {
+  font-family: 'Open sans', sans-serif; }
+
 .navbar {
   margin-bottom: -50px;
   z-index: 100;
   height: 60px;
   padding-top: 4px;
-  background-color: lightgrey;
   border-bottom: 1px solid grey; }
   .navbar .navbar-brand {
     padding: 0 15px; }
@@ -42,18 +55,19 @@ section {
   background-size: cover;
   position: relative;
   text-align: center;
+  z-index: 10;
   margin-bottom: -2px;
   overflow-y: hidden; }
   .jumbotronHeader .description {
-    width: 90vw;
-    height: 95vh;
+    width: 100vw;
+    height: 60vh;
     margin-left: -35%;
     margin-top: 43px;
     color: white;
     text-align: center;
     -webkit-transform: skewX(-12deg);
     transform: skewX(-12deg);
-    background-color: rgba(26, 145, 62, 0.85);
+    background-color: rgba(218, 165, 32, 0.7);
     z-index: 5; }
   .jumbotronHeader .accrocheHeader {
     margin: auto;
@@ -62,11 +76,10 @@ section {
     top: 55%;
     transform: translatey(-55%); }
   .jumbotronHeader h2 {
-    color: lightgrey;
-    text-shadow: 1px 1px 3px black;
+    color: white;
     font-size: 3em; }
   .jumbotronHeader p {
-    color: black; }
+    color: white; }
 
 .containerArg {
   display: flex;
@@ -78,7 +91,7 @@ section {
     padding: 50px;
     margin: auto; }
   .containerArg .logoArg {
-    color: #1a913e; }
+    color: goldenrod; }
 
 .containerBurgers {
   min-height: 90vh;
@@ -100,7 +113,7 @@ section {
   overflow: hidden;
   transition: 500ms ease-in-out 0s; }
   .itemBuger:active, .itemBuger:hover {
-    background: linear-gradient(0deg, rgba(26, 145, 62, 0.4), rgba(26, 145, 62, 0.1)), url(../images/Burger_slider_1.jpg);
+    background: linear-gradient(0deg, rgba(218, 165, 32, 0.4), rgba(218, 165, 32, 0.1)), url(../images/Burger_slider_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -136,7 +149,7 @@ section {
     .itemBuger .headBurger .tagBurger {
       min-width: 50px;
       height: 50px;
-      background-color: rgba(26, 145, 62, 0.8);
+      background-color: rgba(218, 165, 32, 0.8);
       color: black;
       font-family: sans-serif;
       border-radius: 100px;
@@ -155,60 +168,12 @@ section {
     z-index: 5;
     transition: 500ms ease-in-out 0s; }
 
-
-  /* PAGE EQUIPE */
-.containerFounder {
-  font-family: 'Ubuntu';
-  padding-top: 60px;
-}
-
-.containerFounder h2 {
-  font-size : 3em;
-  font-weight: bold;
-
-}
-.containerFounder div {
-  padding-top: 20px;
-
-    }
-
-.containerFounder p {
-  font-size : 20px;
-  margin-top: 50px;
-}
-
-.containerFounder span {
-  color: #1a913e;
-  font-size:1.5em;
-}
-
-.containerFounder i {
-  line-height: 20px;
-}
-
-.containerTeam {
-  font-family: 'Ubuntu';
-}
-.containerTeam h3 {
-  color: #1a913e;
-}
-
-.containerTeam .thumbnail {
-  border:1px solid #1a913e;
-}
-
-.containerTeam i {
-  margin-top: 5px;
-  line-height: 20px;
-}
-
-/* PAGE FAQ */
 .containerFAQ {
   height: 60vh;
   padding-top: 60px; }
   .containerFAQ h1 {
     text-align: justify;
-    color: #1a913e;
+    color: goldenrod;
     text-shadow: 1px 1px 1px black; }
   .containerFAQ p {
     text-align: justify;
@@ -226,12 +191,11 @@ section {
   background-attachment: fixed;
   color: lightgrey; }
   .jumbotronConcept h1 {
-    color: #1a913e; }
+    color: goldenrod; }
 
 .conceptDescription {
   height: 30vh;
-
-}
+  margin: 50px 0; }
 
 .jumbotronEcologie {
   text-align: right; }
@@ -283,7 +247,7 @@ section {
     bottom: 0;
     text-align: center;
     margin-top: 10px;
-    color: #1a913e; }
+    color: goldenrod; }
   .Well-endPage .navFooter {
     list-style-type: none;
     width: 200px;

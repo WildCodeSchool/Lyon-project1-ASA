@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="container-fluid description">
                 <div class="accrocheHeader">
-                    <h2>Bug Burger, 1<sup>er</sup> fast-food d’insecte en France</h2>
+                    <h2>Bug Burger, restaurant d’insectes.</h2>
                     <p> Une expérience délicieuse pour vous, et bonne pour la planète aussi !</p>
                 </div>
             </div>

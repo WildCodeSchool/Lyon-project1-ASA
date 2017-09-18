@@ -22,7 +22,7 @@
 
 <!-- Conteneur General ( all the sections of the Home page ) -->
 <div class="container-fluid">
-    <section class="container-fluid">
+    <section class="containerBurgers">
         <!--§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§! -->
         <div class="row">
             <div class="col-md-12">
