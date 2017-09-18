@@ -1,17 +1,19 @@
 <?php
 $restaurant = [
     'lyon' => [
+        'titre' => 'Bug Burger de Lyon 69006',
         'description' => 'C\'est au coeur du 6ème arrondissement de Lyon que se trouve le restaurant, dans un cadre idyllique. ',
         'horaires' => 'tous les jours',
         'adresse' => '114 rue Bugeaud',
-        'ville' => 'Lyon',
+        'ville' => '69006 Lyon',
+        'tel' => '0478301923',
     ],
 
     'paris' => [
         'description' => 'Oubliez que vous êtes à Paris grâce à notre restaurant !',
         'horaires' => 'tous les jours',
         'adresse' => '114 rue Bugeaud',
-        'ville' => 'Paris',
+        'ville' => '75001 Paris',
     ],
 
     'laloupe' => [
