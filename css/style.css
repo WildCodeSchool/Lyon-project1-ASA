@@ -1,13 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Hind:500|Open+Sans");
-.WorkClass {
-  border: 1px solid red;
-  background-color: rgba(255, 0, 0, 0.4); }
-
-.WorkProgress {
-  margin-top: 150px;
-  margin-bottom: 150px;
-  background-color: rgba(255, 0, 0, 0.6); }
-
 * {
   box-sizing: border-box; }
 
@@ -39,6 +30,13 @@ p {
   border-bottom: 1px solid grey; }
   .navbar .navbar-brand {
     padding: 0 15px; }
+  .navbar a {
+    font-size: 1.3em;
+    color: white; }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  background-color: #222;
+  text-align: center; }
 
 .jumbotronHeader {
   width: 100%;
@@ -49,11 +47,11 @@ p {
   padding: 1px;
   background-color: black;
   background-position: bottom right;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  text-align: center;
+  text-align: justify;
   z-index: 10;
   margin-bottom: -2px;
   overflow-y: hidden; }
@@ -66,7 +64,7 @@ p {
     text-align: center;
     -webkit-transform: skewX(-12deg);
     transform: skewX(-12deg);
-    background-color: rgba(218, 165, 32, 0.7);
+    background-color: rgba(218, 165, 32, 0.95);
     z-index: 5; }
   .jumbotronHeader .accrocheHeader {
     margin: auto;
@@ -82,6 +80,8 @@ p {
     color: white; }
 
 .containerArg {
+  width: 100vw;
+  margin-left: -50px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap-reverse;
@@ -90,79 +90,20 @@ p {
   .containerArg .itemArg {
     padding: 50px;
     margin: auto; }
+    .containerArg .itemArg h4 {
+      font-family: 'Hind', sans-serif;
+      font-size: 1.6em;
+      margin-top: 30px;
+      color: goldenrod;
+      text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.8); }
   .containerArg .logoArg {
     color: goldenrod; }
 
-.itemBuger {
-  min-width: 450px;
-  min-height: 300px;
-  background: url(../images/Burger_slider_1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-origin: border-box;
-  border: 2px solid black;
-  z-index: 10;
-  overflow: hidden;
-  transition: 500ms ease-in-out 0s; }
-  .itemBuger:active, .itemBuger:hover {
-    background: linear-gradient(0deg, rgba(218, 165, 32, 0.4), rgba(218, 165, 32, 0.1)), url(../images/Burger_slider_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-origin: border-box;
-    filter: saturate(200%); }
-    .itemBuger:active .headBurger, .itemBuger:hover .headBurger {
-      top: 95%;
-      transform: translateY(-95%); }
-    .itemBuger:active .infoBurgers, .itemBuger:hover .infoBurgers {
-      bottom: 15%;
-      transform: translateY(-15%); }
-  .itemBuger .headBurger {
-    width: 100%;
-    height: auto;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 5%;
-    transform: translateY(-5%);
-    transition: 500ms ease-in-out 0s; }
-    .itemBuger .headBurger .nameBurger {
-      width: 200px;
-      height: 50px;
-      background-color: rgba(211, 211, 211, 0.9);
-      color: black;
-      font-family: sans-serif;
-      border-radius: 15px;
-      font-size: 1.5em;
-      padding-top: 10px;
-      margin-top: 5px;
-      border: 1px solid grey; }
-    .itemBuger .headBurger .tagBurger {
-      min-width: 50px;
-      height: 50px;
-      background-color: rgba(218, 165, 32, 0.8);
-      color: black;
-      font-family: sans-serif;
-      border-radius: 100px;
-      padding-top: 12px; }
-  .itemBuger .infoBurgers {
-    width: 100%;
-    min-height: 250px;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: relative;
-    bottom: 70%;
-    transform: translateY(-70%);
-    color: lightgrey;
-    font-size: 1.3em;
-    text-align: left;
-    padding: 15px;
-    z-index: 5;
-    transition: 500ms ease-in-out 0s; }
+.thumbnail {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8); }
 
 .containerFAQ {
-  height: 60vh;
+  min-height: 100vh;
   padding-top: 60px; }
   .containerFAQ h1 {
     text-align: justify;
@@ -172,9 +113,12 @@ p {
     text-align: justify;
     font-size: 1.5em;
     padding-bottom: 15px; }
+  .containerFAQ:hover {
+    cursor: pointer; }
 
 .jumbotronConcept {
   width: 100vw;
+  min-height: 55vh;
   margin-left: -20px;
   margin-top: 50px;
   padding-top: 150px;
@@ -188,10 +132,18 @@ p {
 
 .conceptDescription {
   height: 30vh;
-  margin: 50px 0; }
+  margin: 30px 0;
+  text-align: justify; }
+  .conceptDescription h2 {
+    font-size: 35px; }
+  .conceptDescription p {
+    font-size: 20px; }
 
 .jumbotronEcologie {
+  background-color: goldenrod;
   text-align: right; }
+  .jumbotronEcologie h2 {
+    color: white; }
 
 .containerMaps {
   width: 110vw;
@@ -201,17 +153,23 @@ p {
   margin-left: -70px; }
 
 .restoImg {
-  height: 40vh;
+  min-height: 40vh;
   width: 100%;
   background: rgba(218, 165, 32, 0.8);
   color: black; }
   .restoImg h2 {
-    color: white; }
+    color: white;
+    font-size: 30px; }
+  .restoImg p {
+    font-size: 20px;
+    padding: 35px 70px; }
 
 .jumbotronResto {
   width: 100vw;
-  margin-left: -50px;
-  padding-top: 150px;
+  min-height: 55vh;
+  margin-left: -55px;
+  padding-top: 200px;
+  text-align: justify;
   color: lightgrey;
   background: linear-gradient(10deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../images/resto6.jpg");
   background-size: cover;
@@ -222,21 +180,25 @@ p {
 
 .jumbotronBurger {
   width: 100vw;
-  margin-left: -50px;
+  min-height: 55vh;
+  margin-left: -55px;
   padding-top: 150px;
   color: lightgrey;
-  background: linear-gradient(10deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../images/Burger_slider_1.jpg");
+  background: linear-gradient(10deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../images/BurgerPage.jpg");
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
+  background-position: bottom center;
+  background-attachment: fixed;
+  text-align: justify; }
   .jumbotronBurger h1 {
+    margin-top: 25px;
     color: goldenrod; }
 
 #map-canvas-left {
   margin: auto;
-  height: 90vh;
-  width: 100%;
-  border-radius: 10px; }
+  height: 85vh;
+  width: 99%;
+  border-radius: 10px;
+  margin-left: -5px; }
 
 #iw_container .iw_title {
   font-size: 16px;
@@ -247,7 +209,7 @@ p {
 
 .Well-endPage {
   width: 100%;
-  height: 25vh;
+  height: 20vh;
   margin-bottom: -50px;
   padding: 25px 10px; }
   .Well-endPage .mainFooter {
@@ -261,12 +223,27 @@ p {
     width: 100vw;
     min-height: 70vh;
     margin-left: -15px;
-    margin-top: -25px;
-    padding-top: 50px;
-    background: linear-gradient(160deg, rgba(0, 100, 0, 0.6), rgba(0, 0, 0, 0.8)), url(https://goo.gl/RLQ9fk);
+    padding-top: 100px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(https://goo.gl/RLQ9fk);
     background-position: center;
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    color: goldenrod; }
+    .Well-endPage .Contact small {
+      margin-top: 35px;
+      margin-left: 15px;
+      color: white;
+      font-size: 0.6em; }
+    .Well-endPage .Contact a {
+      color: goldenrod; }
+    .Well-endPage .Contact input,
+    .Well-endPage .Contact textarea,
+    .Well-endPage .Contact select {
+      background-color: rgba(245, 245, 245, 0.9);
+      border: 1px solid goldenrod; }
+    .Well-endPage .Contact .input-group-addon {
+      color: white;
+      background-color: goldenrod; }
   .Well-endPage .Signature {
     width: 100%;
     bottom: 0;
@@ -275,14 +252,15 @@ p {
     color: goldenrod; }
   .Well-endPage .navFooter {
     list-style-type: none;
-    width: 200px;
+    width: 180px;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     color: white;
-    background-color: rgba(128, 128, 128, 0.8);
+    background-color: rgba(218, 165, 32, 0.2);
     padding: 25px;
     margin-top: 30px;
     margin-bottom: 10px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8); }
 
 /*# sourceMappingURL=style.css.map */

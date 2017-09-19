@@ -30,31 +30,37 @@
             <h1>Foire Aux Questions</h1>
             <p>Nous avons répondu à vos questions les plus pertinentes ... et courantes !</p>
             <details open>
-                <summary><h2>Ma question est la suivante : blablaba</h2></summary>
+                <summary><h2>1: Ma question est la suivante : blablaba</h2></summary>
+                <fieldset>
+                    <legend>2: Voici ma réponse : blablablablabla</legend>
+                </fieldset>
+            </details>
+            <details open>
+                <summary><h2>3: Ma question est la suivante : blablaba</h2></summary>
                 <fieldset>
                     <legend>Voici ma réponse : blablablablabla</legend>
                 </fieldset>
             </details>
             <details open>
-                <summary><h2>Ma question est la suivante : blablaba</h2></summary>
+                <summary><h2>4: Ma question est la suivante : blablaba</h2></summary>
                 <fieldset>
                     <legend>Voici ma réponse : blablablablabla</legend>
                 </fieldset>
             </details>
-            <details>
-                <summary open><h2>Ma question est la suivante : blablaba</h2></summary>
+            <details open>
+                <summary><h2>5: Ma question est la suivante : blablaba</h2></summary>
+                <fieldset>
+                    <legend>6: Voici ma réponse : blablablablabla</legend>
+                </fieldset>
+            </details>
+            <details open>
+                <summary><h2>7: Ma question est la suivante : blablaba</h2></summary>
                 <fieldset>
                     <legend>Voici ma réponse : blablablablabla</legend>
                 </fieldset>
             </details>
-            <details>
-                <summary><h2>Ma question est la suivante : blablaba</h2></summary>
-                <fieldset>
-                    <legend>Voici ma réponse : blablablablabla</legend>
-                </fieldset>
-            </details>
-            <details>
-                <summary><h2>Ma question est la suivante : blablaba</h2></summary>
+            <details open>
+                <summary><h2>8: Ma question est la suivante : blablaba</h2></summary>
                 <fieldset>
                     <legend>Voici ma réponse : blablablablabla</legend>
                 </fieldset>

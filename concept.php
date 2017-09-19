@@ -38,12 +38,12 @@
         <div class="row conceptDescription">
             <h2>Pourquoi manger des insectes ?</h2>
             <p>Il existe de très nombreuses raisons de consommer des insectes; non seulement ils sont bons pour votre santé avec des apports nutritionnels importants mais leur élevage permet de préserver notre planète ! </p>
+            <p>Les insectes sont une source importante de protéines – plus importante même que celles des viandes dites « classiques » ! Savez-vous par exemple que manger 5 criquets suffit pour avoir l’équivalence en termes de protéines d’un steak de boeuf entier?! </p>
         </div>
 
         <div class="row conceptDescription">
             <h2>Un apport nutritionnel sans précédent</h2>
-            <p>Les insectes sont une source importante de protéines – plus importante même que celles des viandes dites « classiques » ! Savez-vous par exemple que manger 5 criquets suffit pour avoir l’équivalence en termes de protéines d’un steak de boeuf entier?! <br />
-                Les insectes sont aussi une source importante de vitamines, omégas 3 et 6, et minéraux.
+            <p>Les insectes sont aussi une source importante de vitamines, omégas 3 et 6, et minéraux.
             </p>
             <p>Les insectes contiennent également moins de graisses que les autres types de viandes : ils contiennent en moyenne 16% de matières grasses, contrairement à la viande traditionnelle qui en contiendraient près de la moitié (48% en moyenne).
             </p>

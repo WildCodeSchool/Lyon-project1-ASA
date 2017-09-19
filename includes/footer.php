@@ -1,5 +1,6 @@
 <footer class="Well-endPage">
     <section id="Contact" class="Contact">
+
         <!-- includes Form.php -->
         <div class="well-lg">
             <div class="container">
@@ -10,6 +11,8 @@
                 </div>
             </div>
         </div>
+
+        <!--  Contact form  -->
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -20,12 +23,11 @@
                                     <div class="form-group">
                                         <label for="subject">Objet du message</label>
                                         <select id="subject" name="subject" class="form-control" required="required">
-                                            <option value="Restaurant" selected="">Question sur un restaurant</option>
+s                                            <option value="Restaurant">Question sur un restaurant</option>
                                             <option value="Aventure">Participez à l'aventure</option>
                                             <option value="Presse">Presse</option>
                                             <option value="Suggestions">Suggestions</option>
                                             <option value="Partenariat">Partenariat</option>
-                                            <option value="Autres">Autres</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
@@ -48,23 +50,19 @@
                                         <label for="Tel">
                                             Votre numéro de téléphone</label>
                                         <div class="input-group">
-                                        <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
-                                        </span>
-                                            <input type="tel" class="form-control" id="Tel" placeholder="Votre numéro" required="required" max="10"/></div>
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>
+                                            <input type="tel" class="form-control" id="Tel" placeholder="Votre numéro" required="required" max="10"/>
+                                        </div>
                                     </div>
-
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="name">
-                                            Message</label>
-                                        <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                                  placeholder="Message"></textarea>
+                                        <label for="name">Message</label>
+                                        <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                                        Envoyer !</button>
+                                    <button type="submit" class="btn btn-success pull-right" id="btnContactUs">Envoyer !</button>
                                 </div>
                             </div>
                         </form>
@@ -72,9 +70,9 @@
                 </div>
             </div>
         </div>
-
     </section>
 
+<!--  Footer of page   -->
     <div id="endPage" class="mainFooter">
         <ul class="navFooter">
             <li>Accueil</li>

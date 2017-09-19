@@ -34,9 +34,10 @@ $restaurant = $restaurants[$ville];
 <div class="container-fluid">
     <section>
         <div class="jumbotron jumbotronResto">
-            <h1>Manger un Bug Burger à Lyon</h1>
-
+            <div class="container">
+                <h1>Manger un Bug Burger à Lyon</h1>
                 <p>Au coeur du nouveau quartier né de la réhabilitation de la prison Saint Paul, le Bug Burger vous accueille dans une ambiance chaleureuse et feutrée, idéale pour les repas en famille, entre amis ou pour une pause déjeuner conviviale et originale.</p>
+            </div>
         </div>
             <div class="restoImg">
                 <section>

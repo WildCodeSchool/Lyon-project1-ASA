@@ -28,10 +28,12 @@
     <!--§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§! -->
     <section>
         <div class="jumbotron jumbotronBurger">
+            <div class="container">
             <h1>Découvrez nos différents burgers</h1>
 
             <p>Humm ... Yummy !!</p>
             <p>Découvrez nos burgers stars, qui allient le plaisir de déguster un bon burger composé d’ingrédients frais et bios, avec des boulettes ou des steaks d’insecte aux textures fabuleuses, développées par notre centre de recherche depuis plus de 10 ans.</p>
+            </div>
         </div>
         <div>
             <div>
@@ -100,6 +102,26 @@
                             </div>
                             <div class="col-md-2">
                                 <i class="fa fa-bug" aria-hidden="true"></i>
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="./images/Burger_slider_1.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <div class="caption">
+                        <div class="row">
+                            <h2>Le Manhattan</h2>
+
+                            <div class="col-md-10">
+                                <p>Le burger composé de grillons grillés au barbecue, de généreuses tranches de cheddar, d'échalotes marinées et d’une sauce westminster.</p>
+
+                            </div>
+                            <div class="col-md-2">
                                 <i class="fa fa-bug" aria-hidden="true"></i>
                                 <i class="fa fa-bug" aria-hidden="true"></i>
 

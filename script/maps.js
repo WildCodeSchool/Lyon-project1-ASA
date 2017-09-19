@@ -3,19 +3,24 @@
 // * 2015 - en.marnoto.com
 // *
 
+// Get Geolocalisation
+var userLatitude;
+var userLongitude;
+
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+        userLatitude += position.coords.latitude;
+        userLongitude += position.coords.longitude;
+    });
+}
+
+console.log(userLatitude);
+
 // necessary variables
 var mapLeft;
 var infoWindowLeft;
 
 // markersData variable stores the information necessary to each marker
-
-
-
-
-//   {lat: 44.837789, lng:  -0.57918}, //Bordeaux
-//   {lat: 48.471285, lng: 1.014305} //La Loupe
-
-
 var markersDataLeft = [
     {
         lat: 48.862725,
@@ -72,7 +77,14 @@ var markersDataLeft = [
         name: "BugBurger Orléans",
         address1:"Rua dos Balneários do Complexo Desportivo",
         postalCode: "45000" // don't insert comma in the last item of each marker
-    } // don't insert comma in the last item
+    }
+    // {
+    //     lat: userLatitude,
+    //     lng: userLongitude,
+    //     name: "Your city",
+    //     address1:"Your adress",
+    //     postalCode: "Your postal code" // don't insert comma in the last item of each marker
+    // }// don't insert comma in the last item
 ];
 
 
