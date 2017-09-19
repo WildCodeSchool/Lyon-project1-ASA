@@ -207,6 +207,26 @@ p {
   padding: 20px;
   margin-left: -70px; }
 
+.restoImg {
+  height: 40vh;
+  width: 100%;
+  background: rgba(218, 165, 32, 0.8);
+  color: black; }
+  .restoImg h2 {
+    color: white; }
+
+.jumbotronResto {
+  width: 100vw;
+  margin-left: -50px;
+  padding-top: 150px;
+  color: lightgrey;
+  background: linear-gradient(10deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../images/resto6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .jumbotronResto h1 {
+    color: goldenrod; }
+
 #map-canvas-left {
   margin: auto;
   height: 90vh;
