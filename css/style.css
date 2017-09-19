@@ -25,8 +25,7 @@ h3,
 h4,
 h5 {
   font-family: 'Hind', sans-serif;
-  color: goldenrod;
-  text-shadow: 0 0 1px black; }
+  color: goldenrod; }
 
 li,
 p {
@@ -75,9 +74,10 @@ p {
     position: relative;
     top: 55%;
     transform: translatey(-55%); }
-  .jumbotronHeader h2 {
+  .jumbotronHeader h1 {
     color: white;
-    font-size: 3em; }
+    font-size: 3em;
+    text-shadow: 0 0 1px black; }
   .jumbotronHeader p {
     color: white; }
 

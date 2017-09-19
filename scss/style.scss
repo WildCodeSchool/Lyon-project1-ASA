@@ -38,7 +38,6 @@ h5
 {
   font-family: 'Hind', sans-serif;
   color: $color1;
-  text-shadow: 0 0 1px black;
 }
 
 li,
@@ -101,9 +100,11 @@ p
     top: 55%;
     transform: translatey(-55%);
   }
-  h2 {
+  h1 {
     color: white;
     font-size: 3em;
+    text-shadow: 0 0 1px black;
+
   }
   p {
     color: white;
