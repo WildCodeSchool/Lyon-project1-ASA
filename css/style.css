@@ -174,25 +174,8 @@ p {
     font-size: 1.5em;
     padding-bottom: 15px; }
 
-.jumbotronConcept {
-  width: 100vw;
-  margin-left: -20px;
-  margin-top: 50px;
-  padding-top: 150px;
-  background: linear-gradient(10deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(../images/Burger_slider_2.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  color: lightgrey; }
-  .jumbotronConcept h1 {
-    color: goldenrod; }
 
-.conceptDescription {
-  height: 30vh;
-  margin: 50px 0; }
 
-.jumbotronEcologie {
-  text-align: right; }
 
 .containerMaps {
   width: 110vw;

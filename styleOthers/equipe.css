@@ -1,0 +1,62 @@
+img {
+    border-radius: 10px;
+}
+
+.containerFounder {
+    padding-top: 100px;
+}
+
+.containerFounder h2 {
+    font-size : 3em;
+    color: goldenrod;
+    font-weight: bold;
+    text-align: center;
+}
+
+.containerFounder div {
+    padding-top: 20px;
+}
+
+.containerFounder p {
+    font-size : 20px;
+    margin-top: 50px;
+}
+
+.containerFounder span {
+    color: goldenrod;
+    font-size:1.5em;
+}
+
+.containerFounder i {
+    line-height: 20px;
+    background-color: goldenrod;
+    border-radius: 10px
+}
+
+.containerTeam {
+    padding-top: 100px;
+}
+
+.containerTeam h3 {
+    color: goldenrod;
+    text-align: center;
+}
+
+.containerTeam .thumbnail {
+    border:1px solid goldenrod;
+}
+
+.containerTeam i {
+    margin-top: 5px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.containerTeam p {
+    text-align: center;
+}
+
+.containerTeam img {
+    padding-top: 10px;
+}
+

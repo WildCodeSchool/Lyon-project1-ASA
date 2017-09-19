@@ -9,6 +9,7 @@
     <title>Concept | BugBurger</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleOthers/concept.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -34,13 +35,17 @@
             </p>
         </div>
     </div>
-    <section class="container">
-        <div class="row conceptDescription">
+    <section class="concept">
+        <div class="first_conceptDescription">
             <h2>Pourquoi manger des insectes ?</h2>
             <p>Il existe de très nombreuses raisons de consommer des insectes; non seulement ils sont bons pour votre santé avec des apports nutritionnels importants mais leur élevage permet de préserver notre planète ! </p>
         </div>
 
-        <div class="row conceptDescription">
+        <div class="second_conceptDescription">
+            <div class="image_apport">
+                <img class="apport" src="./images/apport-nutri.jpg" alt="illustration apports nutritionnels">
+            </div>
+            <div class="text_apport">
             <h2>Un apport nutritionnel sans précédent</h2>
             <p>Les insectes sont une source importante de protéines – plus importante même que celles des viandes dites « classiques » ! Savez-vous par exemple que manger 5 criquets suffit pour avoir l’équivalence en termes de protéines d’un steak de boeuf entier?! <br />
                 Les insectes sont aussi une source importante de vitamines, omégas 3 et 6, et minéraux.
@@ -49,6 +54,7 @@
             </p>
             <p>Les insectes sont également source de glucides, c’est-à-dire qu’ils apportent de l’énergie, nécessaires pour le fonctionnement de notre organisme – contrairement à la viande « traditionnelle » qui n’en possède pas.
             </p>
+            </div>
         </div>
     </section>
 
