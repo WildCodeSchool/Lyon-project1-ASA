@@ -1,3 +1,7 @@
+<?php
+$ville = $_GET['ville'];
+?>
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -21,46 +25,45 @@
     ?>
 
 </header>
-
+<?php
+$restaurants = include("includes/dataresto.php");
+$restaurant = $restaurants[$ville];
+?>
 <!-- Conteneur General ( all the sections of the Home page ) -->
+<<<<<<< HEAD
 <div class="container-fluid">
-    <section class="name_restaurant">
-        <div class="restaurant_city">
-            <h2 class="title_city">Manger un Bug Burger à Lyon</h2>
-        </div>
-        <?php
-           // include('./includes/workInProgress.php');
-        ?>
-    </section>
-    <section class="single_restaurant_map">
-        <!-- INSERER UNE GOOGLE MAP CENTREE SUR LE RESTO SOLO -->
+    <section>
+        <div class="jumbotron jumbotronResto">
+            <h1>Manger un Bug Burger à Lyon</h1>
 
-    </section>
-    <section class="detail_restaurant">
-        <div class="row detail_single_restaurant">
-            <div class="col-md-5">
-                <a class="timetable">Horaires d'ouverture :</a>
-                <ul>
-                    <li>Lundi : fermé</li>
-                    <li>Mardi à Samedi : 11:00-14:00, 18:30-22:00</li>
-                    <li>Dimanche : 18:00-22:00</li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <h3>Bug Burger - Lyon</h3>
-                <address>
-                    <span class="addr">17 rue Delandine<br>69002 Lyon</span>
-                    <span class="phone">
-                        <abbr title="Téléphone">Tél.</abbr>
-                        <a class="phone" href="tel:0478000000"> 04 78 00 00 00</a>
-                    </span>
-                </address>
-                <p class="description">Au coeur du nouveau quartier né de la réhabilitation de la prison Saint Paul, le Bug Burger vous accueille dans une ambiance chaleureuse et feutrée, idéale pour les repas en famille, entre amis ou pour une pause déjeuner conviviale et originale.</p>
+                <p>Au coeur du nouveau quartier né de la réhabilitation de la prison Saint Paul, le Bug Burger vous accueille dans une ambiance chaleureuse et feutrée, idéale pour les repas en famille, entre amis ou pour une pause déjeuner conviviale et originale.</p>
+        </div>
+            <div class="restoImg">
+                <section>
+
+                    <div class="col-md-4">
+                        <h2>Horaires d'ouverture :</h2>
+                        <p><?php echo $restaurant["horaires"] ?></p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h2>Où nous trouver:</h2>
+                        <p><?php echo $restaurant["adresse"] ?></p>
+                        <p><?php echo $restaurant["ville"] ?></p>
+                        <p><?php echo $restaurant["tel"] ?></p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h2>Nos spécificités :</h2>
+                        <p>Wi-Fi gratos et bonne humeur !</p>
+                    </div>
+                </section>
+
             </div>
 
-        </div>
-
     </section>
+
+
 </div> <!-- End container General -->
 
 
