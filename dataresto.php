@@ -2,7 +2,7 @@
 return [
     'lyon' => [
         'titre' => 'Bug Burger de Lyon 69006',
-        'description' => 'C\'est au coeur du 6ème arrondissement de Lyon que se trouve le restaurant, dans un cadre idyllique. ',
+        'description' => 'Au coeur du nouveau quartier né de la réhabilitation de la prison Saint Paul, le Bug Burger vous accueille dans une ambiance chaleureuse et feutrée, idéale pour les repas en famille, entre amis ou pour une pause déjeuner conviviale et originale.',
         'horaires' => 'tous les jours',
         'adresse' => '114 rue Bugeaud',
         'ville' => '69006 Lyon',
