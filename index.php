@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./images/logobug.png">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Acceuil | BugBurger</title>
+    <title>Accueil | BugBurger</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -53,32 +53,42 @@
     </section>
 
     <!-- Section About us -->
-    <section id="AboutUs">
+    <section class="restoImg">
 
         <h2>Qu'est que c'est cette histoire de burger aux insectes ?</h2>
+        <div class="col-lg-md-8">
+        <p>Depuis des années, Laurent et Damien étudient la possibilité de proposer une alternative savoureuse à la viande … grâce aux insectes. Et oui, c’est possible ! Dans de nombreux pays, les insectes font partie de la cuisine quotidienne. Pourquoi pas chez nous ? En plus, les insectes sont une excellente alternative à la viande : leur élevage est moins polluant, et les qualités nutritives sont équivalentes. Après avoir cherché la recette du burger parfait, nous avons imaginé une chaîne de restaurants accueillante, ouverte à tous, proposant des menus délicieux et nourrissants, riches en protéines.
+        </p>
+        </div>
 
+    </section>
+    <section>
 
     </section>
 
     <!-- Section Our best burgers -->
-    <section id="BestBurgers">
+    <section class="restoImg">
 
         <h2>Les recettes de nos burgers</h2>
-
+        <p>New York, Paris, Bangkok … Nous avons traversé la planète pour trouver les meilleures recettes de burgers, dont les insectes en sont les ingrédients principaux. Nous avons à coeur de favoriser des produits frais et locaux, que ce soit pour les légumes que pour le fromage. Et évidemment, nos insectes sont élevés en France, nourris avec des végétaux bio. Nous respectons toutes les normes environnementales, pour diminuer notre empreinte carbone.
+        </p>
 
     </section>
+    <section>
 
+    </section>
     <!-- Our restaurants Gallery -->
-    <section id="RestaurantGallery">
+    <section class="restoImg">
 
-        <h2>Trouvez votre restaurant </h2>
-
+        <h2>8 restaurants en France </h2>
+        <p>Vous pouvez nous trouver dans quelques villes en France. S’il n’y a pas encore de Bug Burger à côté de chez vous, patience ! D’ici 2018, nous aurons envahi tout le pays. En attendant, rendez-vous dans l’un de nos 8 Bug Burgers. Renseignez-vous grâce à notre carte interactive ou directement sur les pages des restaurants concernés !
+        </p>
 
     </section>
 
 
     <section>
-        <div class="titleMaps">
+        <div>
             <h2>Trouvez votre restaurant BugBurger : </h2>
         </div>
         <div class="containerMaps">
