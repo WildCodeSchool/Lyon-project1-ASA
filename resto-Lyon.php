@@ -1,3 +1,7 @@
+<?php
+    $ville = $_GET['ville'];
+?> <!-- resto.php?ville=lyon -->
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -21,40 +25,49 @@
     ?>
 
 </header>
-<?php include("dataresto.php"); ?>
+<?php
+    $restaurants = include("dataresto.php");
+    $restaurant = $restaurants[$ville];
+?>
 <!-- Conteneur General ( all the sections of the Home page ) -->
-<div class="container-fluid">
-
-     <section class="container">
-                <section class="row">
-        <div class="col-md-12">
-            <!-- Contenu de la page -->
-            <div class="col-md-8">
-                <h1><?php echo $restaurant['lyon']['titre']?></h1>
-                <p> <?php echo $restaurant['lyon']['description']?> </p>
-                <h2 id="horaires">Horaires d'ouverture</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.242858920429!2d4.8246366504860925!3d45.74627697900278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea4ab604554f%3A0x83e3e33b33887834!2s17+Rue+Delandine%2C+69002+Lyon!5e0!3m2!1sfr!2sfr!4v1505738346379" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <p> <?php echo $restaurant['lyon']['horaires']?> </p>
-                <h2 id="adresse">Adresse</h2>
-                <p> <?php echo $restaurant['lyon']['adresse']?> </p>
-                <p> <?php echo $restaurant['lyon']['ville']?> </p>
-                <h2 id="tel">Téléphone</h2>
+<div class="container">
+    <section>
+        <div>
+            <h1>Manger un Bug Burger à Lyon</h1>
+            <div>
+                 <p class="description">Au coeur du nouveau quartier né de la réhabilitation de la prison Saint Paul, le Bug Burger vous accueille dans une ambiance chaleureuse et feutrée, idéale pour les repas en famille, entre amis ou pour une pause déjeuner conviviale et originale.</p>
             </div>
+            <div class="restoImg">
 
-            <!-- menu de la page pour naviguer via les ancres -->
-            <div class="col-md-4">
-                <div class="btn-group-vertical" role="group" aria-label="...">
-
-                    <button type="button" class="btn btn-default"><a href="#horaires">Horaires</a></button>
-                    <button type="button" class="btn btn-default"><a href="#adresse">Adresse</a></button>
-                    <button type="button" class="btn btn-default"><a href="#tel">Téléphone</a></button>
-
-                </div>
             </div>
-
         </div>
-                </section>
+        <?php
+        // include('./includes/workInProgress.php');
+        ?>
+    </section>
 
+    <section class="detail_restaurant">
+        <div class="row detail_single_restaurant">
+            <div class="col-md-5">
+                <h2>Horaires d'ouverture :</h2>
+                    <p><?php echo $restaurant["horaires"] ?></p>
+            </div>
+            <div class="col-md-6">
+                <h2>Où nous trouver ?</h2>
+                <address>
+                    <span class="addr">17 rue Delandine<br>69002 Lyon</span>
+                    <span class="phone">
+                        <abbr title="Téléphone">Tél.</abbr>
+                        <a class="phone" href="tel:0478000000"> 04 78 00 00 00</a>
+                    </span>
+                </address>
+            </div>
+            <section class="single_restaurant_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.236524552082!2d4.824765950868314!3d45.74640397900267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea4ac9e1fd2f%3A0xabc36e768b27c9a0!2sWild+Code+School!5e0!3m2!1sfr!2sfr!4v1505810718683" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section>
+        </div>
+
+    </section>
 </div> <!-- End container General -->
 
 

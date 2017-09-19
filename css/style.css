@@ -184,6 +184,12 @@ section {
 .iw_content {
   padding: 15px 15px 15px 0; }
 
+.restoImg {
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/resto-lyon.jpg");
+  background-size: cover; }
+
 .Well-endPage {
   width: 100%;
   height: auto;

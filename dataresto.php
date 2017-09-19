@@ -1,5 +1,5 @@
 <?php
-$restaurant = [
+return [
     'lyon' => [
         'titre' => 'Bug Burger de Lyon 69006',
         'description' => 'C\'est au coeur du 6ème arrondissement de Lyon que se trouve le restaurant, dans un cadre idyllique. ',
