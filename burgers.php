@@ -26,28 +26,41 @@
 <div class="container-fluid">
 
     <!--§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§! -->
-    <section class="containerBurgers">
+    <section>
+        <div class="jumbotron jumbotronBurger">
+            <h1>Découvrez nos différents burgers</h1>
 
-        <h1>Découvrez nos différents burgers :</h1>
-
+            <p>Humm ... Yummy !!</p>
+            <p>Découvrez nos burgers stars, qui allient le plaisir de déguster un bon burger composé d’ingrédients frais et bios, avec des boulettes ou des steaks d’insecte aux textures fabuleuses, développées par notre centre de recherche depuis plus de 10 ans.</p>
+        </div>
         <div>
+            <div>
+                <i class="fa fa-bug" aria-hidden="true"> : faiblement insectisé</i>
+                <i class="fa fa-bug" aria-hidden="true"></i>
+                <i class="fa fa-bug" aria-hidden="true"> : moyennement insectisé</i>
+                <i class="fa fa-bug" aria-hidden="true"></i>
+                <i class="fa fa-bug" aria-hidden="true"></i>
+                <i class="fa fa-bug" aria-hidden="true"> : très insectisé</i>
+                <p></p>
+                <p></p>
+
+            </div>
 
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/Burger_slider_1.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            <h2>Le Manhattan</h2>
+
+                            <div class="col-md-10">
+                                <p>Le burger composé de grillons grillés au barbecue, de généreuses tranches de cheddar et d’une sauce westminster.</p>
+
                             </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            <div class="col-md-2">
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+
                             </div>
                         </div>
                     </div>
@@ -55,20 +68,19 @@
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/Burger_slider_1.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            <h2>Bug-Londoner</h2>
+
+                            <div class="col-md-10">
+                                <p>Le burger composé d’un steak de vers de farine, d’une sauce curry relevée, de poivrons, de salade et de tomates.
+                                </p>
+
                             </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            <div class="col-md-2">
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+
                             </div>
                         </div>
                     </div>
@@ -76,20 +88,21 @@
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/Burger_slider_1.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            <h2>Le Bug Jura</h2>
+
+                            <div class="col-md-10">
+                                <p>Le burger composé de boulettes de sauterelles, de comté AOP fondu, d’oignons rouges et de sa sauce mystère.
+                                </p>
+
                             </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            <div class="col-md-2">
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+
                             </div>
                         </div>
                     </div>
@@ -97,20 +110,19 @@
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/Burger_slider_1.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            <h2>Le Manhattan</h2>
+
+                            <div class="col-md-10">
+                                <p>Le burger composé de grillons grillés au barbecue, de généreuses tranches de cheddar, d'échalotes marinées et d’une sauce westminster.</p>
+
                             </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            <div class="col-md-2">
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+
                             </div>
                         </div>
                     </div>
@@ -118,46 +130,25 @@
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/Burger_slider_1.jpg" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                            <h2>Le Manhattan</h2>
+
+                            <div class="col-md-10">
+                                <p>Le burger composé de grillons grillés au barbecue, de généreuses tranches de cheddar, d'échalotes marinées et d’une sauce westminster.</p>
+
                             </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                            <div class="col-md-2">
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+                                <i class="fa fa-bug" aria-hidden="true"></i>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
-                    <div class="caption">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
         </div>
 

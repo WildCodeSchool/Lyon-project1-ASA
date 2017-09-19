@@ -129,13 +129,6 @@ p
 }
 
 // Page BURGERS
-.containerBurgers {
-  min-height: 90vh;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 100px;
-}
 
 .itemBuger {
   min-width: 450px;
@@ -286,6 +279,20 @@ p
   padding-top: 150px;
   color: lightgrey;
   background: linear-gradient(10deg, rgba($colorGrey, 0.9), rgba(black, 0.6)), url("../images/resto6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  h1{
+    color: $color1;
+  }
+}
+
+.jumbotronBurger {
+  width: 100vw;
+  margin-left: -50px;
+  padding-top: 150px;
+  color: lightgrey;
+  background: linear-gradient(10deg, rgba($colorGrey, 0.9), rgba(black, 0.6)), url("../images/Burger_slider_1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
