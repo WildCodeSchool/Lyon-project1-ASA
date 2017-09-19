@@ -34,7 +34,7 @@
             </p>
         </div>
     </div>
-    <div class="container">
+    <section class="container">
         <div class="row conceptDescription">
             <h2>Pourquoi manger des insectes ?</h2>
             <p>Il existe de très nombreuses raisons de consommer des insectes; non seulement ils sont bons pour votre santé avec des apports nutritionnels importants mais leur élevage permet de préserver notre planète ! </p>
@@ -50,7 +50,7 @@
             <p>Les insectes sont également source de glucides, c’est-à-dire qu’ils apportent de l’énergie, nécessaires pour le fonctionnement de notre organisme – contrairement à la viande « traditionnelle » qui n’en possède pas.
             </p>
         </div>
-    </div>
+    </section>
 
     <?php
 
@@ -58,7 +58,7 @@
 
     ?>
 
-    <div class="jumbotron jumbotronEcologie">
+    <section class="jumbotron jumbotronEcologie">
         <div class="container">
             <h2 class="display-3">Une solution écologique pour notre planète</h2>
             <p class="lead">Sur le plan écologique, les insectes ont un taux de croissance très rapide et leur élevage est facile et peu coûteux : peu gourmands en nourriture, 2 kg d’aliments seulement sont nécessaires pour produire 1 kg d’insectes, alors que les bovins en exigent 8 kg pour produire cette même quantité. <br/>
@@ -66,7 +66,7 @@
 
             </p>
         </div>
-    </div>
+    </section>
 
 </div> <!-- End container General -->
 

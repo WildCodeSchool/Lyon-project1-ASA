@@ -1,4 +1,4 @@
-<section id="ArgumentsRow">
+<section class="argumentsBar">
     <div class="containerArg">
         <article class="itemArg">
             <i class="fa fa-bug fa-5x logoArg" aria-hidden="true"></i>
