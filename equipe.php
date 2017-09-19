@@ -2,8 +2,6 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <!-- TEST AJOUT FONT UBUNTU -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="shortcut icon" href="./images/logobug.png">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Equipe | BugBurger</title>
