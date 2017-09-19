@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse    navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.php">
-                <i class="fa fa-bug fa-2x logoHeader" aria-hidden="true"></i>
+                <img src="./images/logobug.png" width="70px" height="50px" alt="Logo" title="BugBurger">
             </a>
         </div>
 
@@ -41,8 +41,8 @@
                         <li><a href="resto-Lyon.php">Orléans</a></li>
                     </ul>
                 </li>
-                <li><a href="FAQ.php"><i class="fa fa-question-circle" aria-hidden="true"></i></a></li>
-                <li><a href="#Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                <li><a href="FAQ.php" class=""><i class="fa fa-question-circle fa-2x" aria-hidden="true" title="FAQ"></i></a></li>
+                <li><a href="#Contact"><i class="fa fa-envelope fa-2x" aria-hidden="true" title="Contactez nous"></i></a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

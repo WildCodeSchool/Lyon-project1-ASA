@@ -10,7 +10,7 @@
         </article>
         <article class="itemArg">
             <i class="fa fa-bug fa-5x logoArg" aria-hidden="true"></i>
-            <h4>Une expériences <inédites class=""></inédites></h4>
+            <h4>Une expérience inédite.</h4>
         </article>
     </div>
 </section>

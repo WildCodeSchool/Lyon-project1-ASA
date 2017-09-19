@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./images/logoBUG.png">
+    <link rel="shortcut icon" href="./images/logobug.png">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Acceuil | BugBurger</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
@@ -21,10 +21,11 @@
     <!-- Jumbotron -->
     <div class="jumbotron jumbotronHeader">
         <div class="container-fluid">
-            <div class="description">
-                <h1>Bug Burger, 1<sup>er</sup> fast-food d’insecte en France</h1>
-                <p> Une expérience délicieuse pour vous, et bonne pour la planète aussi !</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            <div class="container-fluid description">
+                <div class="accrocheHeader">
+                    <h1>Bug Burger, restaurant d’insectes.</h1>
+                    <p> Une expérience délicieuse pour vous, et bonne pour la planète aussi !</p>
+                </div>
             </div>
         </div>
     </div>
@@ -75,6 +76,16 @@
 
     </section>
 
+
+    <section>
+        <div class="titleMaps">
+            <h2>Trouvez votre restaurant BugBurger : </h2>
+        </div>
+        <div class="containerMaps">
+            <div id="map-canvas-left"></div>
+        </div>
+    </section>
+
 </div> <!-- End container General -->
 
 
@@ -84,6 +95,8 @@
 include('./includes/footer.php');
 ?>
 
+<script type="text/javascript" src='script/maps.js'></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhrQmUoK-VRkBU9oUqkUWQVOwp3l1Emzw&callback=initialize"></script>
 <script src='script/app.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

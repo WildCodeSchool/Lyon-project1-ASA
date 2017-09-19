@@ -1,8 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./images/logoBUG.png">
+    <!-- TEST AJOUT FONT UBUNTU -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logobug.png">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Equipe | BugBurger</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
@@ -24,66 +26,66 @@
 
 <!-- Conteneur General ( all the sections of the Home page ) -->
 <div class="container-fluid">
-    <section>
+    <section class="containerFounder">
         <h2>Rencontrez notre équipe</h2>
         <div class="row">
             <div class="col-md-6">
-                <div class="col-md-4">
-                    <img class="founder-photo" src="" alt="picture founder" title="His name">
-                </div>
                 <div class="col-md-7">
-                    <p><span class="founder-name">Bernard Nardbé, </span>chercheur en insectes,</p>
+                    <p><span class="founder-name">Bernard Nardbé, </span><br/>chercheur en insectes,</p>
                     <i class="fa fa-quote-left" aria-hidden="true"> Je suis passionné depuis toujours par les insectes ! A 5 ans, je les écrasais avec les doigts, à 50 ans, je les sers à manger !</i>
+                </div>
+                <div class="col-md-4">
+                    <img class="founder-photo" src="./images/laurent.jpg" alt="picture founder" title="His name">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="col-md-4">
-                    <img class="cofounder-photo" src="" alt="picture cofounder" title="His name">
+                    <img class="founder-photo" src="./images/damien.jpg" alt="picture founder" title="His name">
                 </div>
                 <div class="col-md-7">
-                    <p><span class="cofounder-name">Hippolyte Rametoujours, </span>startupeur à vie,</p>
+                    <p><span class="founder-name">Hippolyte Rametoujours, </span>startupeur à vie,</p>
                     <i class="fa fa-quote-left" aria-hidden="true"> J’adore les nouveaux challenges, surtout quand ils font parler de moi.</i>
                 </div>
             </div>
         </div>
 
     </section>
-    <section>
+    <section class="containerTeam">
 
         <div class="row">
             <div class="col-md-3">
                 <div class="thumbnail">
-                    <img src="https://s20.postimg.org/vvz43okv1/gallery_1.jpg" alt="photo1 equipe">
+                    <img src="./images/chief.jpg" alt="photo1 equipe">
                     <div class="caption">
-                        <h3>Géo Trouvetout</h3>
-                        <p> Chief <br/> Toute ma vie j'ai rêvé d'être une hôtesse de l'air</p>
+                        <h3>Louis Tremblay</h3>
+                        <p>Chief<br/><i class="fa fa-quote-left" aria-hidden="true"> J'aime les burgers et j'aime les insectes, ça tombe bien !</i></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="thumbnail">
-                    <img src="https://s20.postimg.org/vvz43okv1/gallery_1.jpg" alt="photo1 equipe">
+                    <img src="./images/manager.jpg" alt="photo2 equipe">
                     <div class="caption">
-                        <h3>Je Menfous </h3>
-                        <p>Restaurant Manager <br/> Ma vie, c'est le burger</p>
+                        <h3>Louis Gagnon</h3>
+                        <p>Restaurant Manager<br/><i class="fa fa-quote-left" aria-hidden="true"> Ma vie, c'est le burger</i></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="thumbnail">
-                    <img src="https://s20.postimg.org/vvz43okv1/gallery_1.jpg" alt="photo1 equipe">
+                    <img src="./images/manager2.jpg" alt="photo3 equipe">
                     <div class="caption">
-                        <h3>Gustave Flaubert </h3>
-                        <p>Sales Force<br/>Moi, ce que j'aime c'est écrire</p>
+                        <h3>Quentin Roy</h3>
+                        <p>Restaurant Manager<br/><i class="fa fa-quote-left" aria-hidden="true"> Moi, ce que j'aime c'est quand on me dit que c'est délicieux !</i></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="thumbnail">
-                    <img src="https://s20.postimg.org/vvz43okv1/gallery_1.jpg" alt="photo1 equipe">
+                    <img src="./images/eleveurs.jpg" alt="photo4 equipe">
                     <div class="caption">
-                        <h3>Gaston Lagaffe </h3>
-                        <p>Service Courrier<br/>M'enfin !</p>
+                        <h3>Eve et André Fortin</h3>
+                        <p>Eleveurs d'insectes<br/><i class="fa fa-quote-left" aria-hidden="true"> Nos insectes, on les élève comme nos enfants !</i></p>
                     </div>
                 </div>
             </div>
