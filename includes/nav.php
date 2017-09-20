@@ -24,7 +24,7 @@
                 <li class="dropdown">
                     <a href="restos.php" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">.<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="resto-Lyon.php">Lyon</a></li>
+                        <li><a href="resto-Lyon.php?ville=lyon">Lyon</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="resto-Lyon.php">La Loupe</a></li>
                         <li role="separator" class="divider"></li>

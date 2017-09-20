@@ -22,11 +22,11 @@
 
 <!-- Conteneur General ( all the sections of the Home page ) -->
 <div class="container-fluid">
-    <section class="containerBurgers">
+    <section>
         <!--§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§! -->
-        <div class="row">
-            <div class="col-md-12">
-                <H1>Nos Bug Burgers, partout en France</H1>
+        <div class="jumbotron jumbotronBurger">
+            <div class="container">
+                <h1>Nos Bug Burgers, partout en France</h1>
                 <p>Vous avez envie d'un bon burger plein de fromages et de fourmis grillées ? On vous comprend! Découvrez l'un de nos restaurants près de chez vous :</p>
             </div>
         </div>
@@ -41,8 +41,8 @@
                                 <a href="/restaurant1.html">
                                     <p>Bug Burger de Lyon</p>
                                 </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
+                                <p>17 rue Delandine</p>
+                                <p>69002 Lyon</p>
                                 <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
                             </div>
                             <div class="col-md-6">
