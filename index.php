@@ -54,38 +54,39 @@
 
     <!-- Section About us -->
     <section class="row conceptDescription">
-
-        <h2>Qu'est que c'est cette histoire de burger aux insectes ?</h2>
-        <p>
-            Depuis des années, Laurent et Damien étudient la possibilité de proposer une alternative savoureuse à la viande …
-            grâce aux insectes. Et oui, c’est possible ! Dans de nombreux pays, les insectes font partie de la cuisine quotidienne.
-            Pourquoi pas chez nous ? En plus, les insectes sont une excellente alternative à la viande : leur élevage est moins polluant,
-            et les qualités nutritives sont équivalentes. Après avoir cherché la recette du burger parfait, nous avons imaginé une chaîne de
-            restaurants accueillante, ouverte à tous, proposant des menus délicieux et nourrissants, riches en protéines.
-        </p>
-
+        <div class="container">
+            <h2>Qu'est que c'est cette histoire de burger aux insectes ?</h2>
+            <p>
+                Depuis des années, Laurent et Damien étudient la possibilité de proposer une alternative savoureuse à la viande …
+                grâce aux insectes. Et oui, c’est possible ! Dans de nombreux pays, les insectes font partie de la cuisine quotidienne.
+                Pourquoi pas chez nous ? En plus, les insectes sont une excellente alternative à la viande : leur élevage est moins polluant,
+                et les qualités nutritives sont équivalentes. Après avoir cherché la recette du burger parfait, nous avons imaginé une chaîne de
+                restaurants accueillante, ouverte à tous, proposant des menus délicieux et nourrissants, riches en protéines.
+            </p>
+        </div>
     </section>
 
     <!-- Section Our best burgers -->
     <section class="jumbotron jumbotronEcologie">
-
-        <h2>Les recettes de nos burgers</h2>
-        <p>New York, Paris, Bangkok … Nous avons traversé la planète pour trouver les meilleures recettes de burgers, dont les insectes en sont
-            les ingrédients principaux. Nous avons à coeur de favoriser des produits frais et locaux, que ce soit pour les légumes que pour le fromage.
-            Et évidemment, nos insectes sont élevés en France, nourris avec des végétaux bio. Nous respectons toutes les normes environnementales,
-            pour diminuer notre empreinte carbone.
-        </p>
+        <div class="container">
+            <h2>Les recettes de nos burgers</h2>
+            <p>New York, Paris, Bangkok … Nous avons traversé la planète pour trouver les meilleures recettes de burgers, dont les insectes en sont
+                les ingrédients principaux. Nous avons à coeur de favoriser des produits frais et locaux, que ce soit pour les légumes que pour le fromage.
+                Et évidemment, nos insectes sont élevés en France, nourris avec des végétaux bio. Nous respectons toutes les normes environnementales,
+                pour diminuer notre empreinte carbone.
+            </p>
+        </div>
     </section>
 
     <!-- Our restaurants Gallery -->
     <section class="row conceptDescription">
-
-        <h2>8 restaurants en France </h2>
-        <p>Vous pouvez nous trouver dans quelques villes en France. S’il n’y a pas encore de Bug Burger à côté de chez vous, patience !
-            D’ici 2018, nous aurons envahi tout le pays. En attendant, rendez-vous dans l’un de nos 8 Bug Burgers.
-            Renseignez-vous grâce à notre carte interactive ou directement sur les pages des restaurants concernés !
-        </p>
-
+        <div class="container">
+            <h2>8 restaurants en France </h2>
+            <p>Vous pouvez nous trouver dans quelques villes en France. S’il n’y a pas encore de Bug Burger à côté de chez vous, patience !
+                D’ici 2018, nous aurons envahi tout le pays. En attendant, rendez-vous dans l’un de nos 8 Bug Burgers.
+                Renseignez-vous grâce à notre carte interactive ou directement sur les pages des restaurants concernés !
+            </p>
+        </div>
     </section>
 
 

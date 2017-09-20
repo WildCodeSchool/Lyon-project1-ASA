@@ -24,21 +24,21 @@
                 <li class="dropdown">
                     <a href="restos.php" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">.<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="resto-Lyon.php?ville=lyon">Lyon</a></li>
+                        <li><a href="resto.php?ville=lyon">Lyon</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="resto-Lyon.php">La Loupe</a></li>
+                        <li><a href="resto.php?ville=laloupe">La Loupe</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="resto-Lyon.php">Bordeaux</a></li>
+                        <li><a href="resto.php?ville=bordeaux">Bordeaux</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="resto-Lyon.php">Toulouse</a></li>
+                        <li><a href="resto.php?ville=toulouse">Toulouse</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="resto-Lyon.php">Strasbourg</a></li>
+                        <li><a href="resto.php?ville=strasbourg">Strasbourg</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="resto-Lyon.php">Paris</a></li>
+                        <li><a href="resto.php?ville=paris">Paris</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="resto-Lyon.php">Lille</a></li>
+                        <li><a href="resto.php?ville=Lille">Lille</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="resto-Lyon.php">Orléans</a></li>
+                        <li><a href="resto.php?ville=orleans">Orléans</a></li>
                     </ul>
                 </li>
                 <li><a href="FAQ.php" class=""><i class="fa fa-question-circle" aria-hidden="true" title="FAQ"></i></a></li>

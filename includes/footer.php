@@ -75,21 +75,22 @@ s                                            <option value="Restaurant">Question
 <!--  Footer of page   -->
     <div id="endPage" class="mainFooter">
         <ul class="navFooter">
-            <li>Accueil</li>
-            <li>Concept</li>
-            <li>Equipe</li>
-            <li>FAQ</li>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="concept.php">Concept</a></li>
+            <li><a href="burgers.php">Burgers</a></li>
+            <li><a href="equipe.php">Equipe</a></li>
+            <li><a href="FAQ.php">FAQ</a></li>
             <li><a href="mentionsLegales.php">Mentions Légales</a></li>
         </ul>
         <ul class="navFooter">
-            <li>Lyon</li>
-            <li>Bordeaux</li>
-            <li>Paris</li>
-            <li>Toulouse</li>
-            <li>Lille</li>
-            <li>Strasbourg</li>
-            <li>Orléans</li>
-            <li>La Loupe</li>
+            <li><a href="resto.php?ville=lyon">Lyon</a></li>
+            <li><a href="resto.php?ville=bordeaux">Bordeaux</a></li>
+            <li><a href="resto.php?ville=paris">Paris</a></li>
+            <li><a href="resto.php?ville=toulouse">Toulouse</a></li>
+            <li><a href="resto.php?ville=Lille">Lille</a></li>
+            <li><a href="resto.php?ville=strasbourg">Strasbourg</a></li>
+            <li><a href="resto.php?ville=orleans">Orléans</a></li>
+            <li><a href="resto.php?ville=laloupe">La Loupe</a></li>
         </ul>
         <div class="Signature">
             <p>© Copyrights BugBurger - 2017</p>

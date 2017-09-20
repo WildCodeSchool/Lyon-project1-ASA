@@ -5,7 +5,7 @@ return [
         'description' => 'Au coeur du nouveau quartier né de la réhabilitation de la prison Saint Paul, le Bug Burger vous accueille dans une ambiance chaleureuse et feutrée, idéale pour les repas en famille, entre amis ou pour une pause déjeuner conviviale et originale.',
         'horaires' => 'tous les jours',
         'adresse' => '114 rue Bugeaud',
-        'ville' => '69006 Lyon',
+        'ville' => 'Lyon',
         'tel' => '0478301923',
     ],
 
@@ -13,7 +13,14 @@ return [
         'description' => 'Oubliez que vous êtes à Paris grâce à notre restaurant !',
         'horaires' => 'tous les jours',
         'adresse' => '114 rue Bugeaud',
-        'ville' => '75001 Paris',
+        'ville' => 'Paris',
+    ],
+
+    'bordeaux' => [
+        'description' => 'Oubliez que vous êtes à Paris grâce à notre restaurant !',
+        'horaires' => 'tous les jours',
+        'adresse' => '114 rue Bugeaud',
+        'ville' => 'Bordeaux',
     ],
 
     'laloupe' => [
