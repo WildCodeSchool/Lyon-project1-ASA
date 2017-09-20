@@ -26,6 +26,15 @@
 
 <!-- Conteneur General ( all the sections of the Home page ) -->
 <div class="container-fluid">
+    <section>
+    <div class="jumbotron jumbotronEquipe">
+        <div class="container">
+            <h1>Une équipe soudée autour de l'insecte</h1>
+
+            <p>Un travail de fourmi qui porte ses burgers.</p>
+        </div>
+    </div>
+
     <section class="containerFounder">
         <h2>Rencontrez notre équipe</h2>
         <div class="row">
@@ -90,6 +99,7 @@
                 </div>
             </div>
         </div>
+    </section>
     </section>
 </div> <!-- End container General -->
 
