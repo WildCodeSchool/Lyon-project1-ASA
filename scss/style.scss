@@ -173,7 +173,7 @@ p
 }
 
 .conceptDescription {
-  height: 30vh;
+  min-height: 30vh;
   margin: 30px 0;
   text-align: justify;
   h2 {
@@ -185,10 +185,11 @@ p
 }
 
 .jumbotronEcologie {
+  min-height: 30vh;
   background-color: $mainColor;
   text-align: right;
   h2 {
-    color: white
+    color: white;
   }
 }
 
@@ -254,7 +255,6 @@ p
     margin: auto;
     height: 85vh;
     width: 99%;
-    border-radius: 10px;
     margin-left: -5px;
   }
 
