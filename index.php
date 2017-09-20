@@ -78,8 +78,8 @@
             Et évidemment, nos insectes sont élevés en France, nourris avec des végétaux bio. Nous respectons toutes les normes environnementales,
             pour diminuer notre empreinte carbone.
         </p>
-
     </section>
+
     <!-- Our restaurants Gallery -->
     <section class="row conceptDescription">
 
