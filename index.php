@@ -53,7 +53,7 @@
     </section>
 
     <!-- Section About us -->
-    <section class="restoImg">
+    <section class="row conceptDescription">
 
         <h2>Qu'est que c'est cette histoire de burger aux insectes ?</h2>
         <p>
@@ -70,7 +70,7 @@
     </section>
 
     <!-- Section Our best burgers -->
-    <section class="restoImg">
+    <section class="row conceptDescription">
 
         <h2>Les recettes de nos burgers</h2>
         <p>New York, Paris, Bangkok … Nous avons traversé la planète pour trouver les meilleures recettes de burgers, dont les insectes en sont
@@ -84,7 +84,7 @@
 
     </section>
     <!-- Our restaurants Gallery -->
-    <section class="restoImg">
+    <section class="jumbotron jumbotronEcologie">
 
         <h2>8 restaurants en France </h2>
         <p>Vous pouvez nous trouver dans quelques villes en France. S’il n’y a pas encore de Bug Burger à côté de chez vous, patience !
