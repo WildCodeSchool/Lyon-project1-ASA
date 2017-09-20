@@ -250,6 +250,23 @@ p
     color: $mainColor;
   }
 }
+
+.jumbotronEquipe {
+  width: 100vw;
+  min-height: 55vh;
+  margin-left: -55px;
+  padding-top: 200px;
+  text-align: justify;
+  color: lightgrey;
+  background: linear-gradient(10deg, rgba($secondColor, 0.9), rgba(black, 0.6)), url("../images/equipetotale.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  h1{
+    color: $mainColor;
+  }
+}
+
   // Maps
   #map-canvas-left {
     margin: auto;

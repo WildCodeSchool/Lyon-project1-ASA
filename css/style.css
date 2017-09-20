@@ -194,6 +194,20 @@ p {
     margin-top: 25px;
     color: goldenrod; }
 
+.jumbotronEquipe {
+  width: 100vw;
+  min-height: 55vh;
+  margin-left: -55px;
+  padding-top: 200px;
+  text-align: justify;
+  color: lightgrey;
+  background: linear-gradient(10deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../images/equipetotale.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .jumbotronEquipe h1 {
+    color: goldenrod; }
+
 #map-canvas-left {
   margin: auto;
   height: 85vh;
