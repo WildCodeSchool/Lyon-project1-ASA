@@ -70,7 +70,7 @@
     </section>
 
     <!-- Section Our best burgers -->
-    <section class="row conceptDescription">
+    <section class="jumbotron jumbotronEcologie">
 
         <h2>Les recettes de nos burgers</h2>
         <p>New York, Paris, Bangkok … Nous avons traversé la planète pour trouver les meilleures recettes de burgers, dont les insectes en sont
@@ -80,11 +80,8 @@
         </p>
 
     </section>
-    <section>
-
-    </section>
     <!-- Our restaurants Gallery -->
-    <section class="jumbotron jumbotronEcologie">
+    <section class="row conceptDescription">
 
         <h2>8 restaurants en France </h2>
         <p>Vous pouvez nous trouver dans quelques villes en France. S’il n’y a pas encore de Bug Burger à côté de chez vous, patience !
