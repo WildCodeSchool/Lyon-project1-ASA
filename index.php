@@ -65,9 +65,6 @@
         </p>
 
     </section>
-    <section>
-
-    </section>
 
     <!-- Section Our best burgers -->
     <section class="jumbotron jumbotronEcologie">

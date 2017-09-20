@@ -79,7 +79,7 @@ s                                            <option value="Restaurant">Question
             <li>Concept</li>
             <li>Equipe</li>
             <li>FAQ</li>
-            <li>Mentions Légales</li>
+            <li><a href="mentionsLegales.php">Mentions Légales</a></li>
         </ul>
         <ul class="navFooter">
             <li>Lyon</li>
