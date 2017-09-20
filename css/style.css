@@ -102,6 +102,7 @@ p {
 .thumbnail {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8); }
 
+
 .containerFAQ {
   min-height: 100vh;
   padding-top: 60px; }
@@ -116,6 +117,7 @@ p {
   .containerFAQ:hover {
     cursor: pointer; }
 
+<<<<<<< HEAD
 .jumbotronConcept {
   width: 100vw;
   min-height: 55vh;
@@ -144,6 +146,10 @@ p {
   text-align: right; }
   .jumbotronEcologie h2 {
     color: white; }
+=======
+
+
+>>>>>>> 583bbec2739a8364f5d7fe344e613595872e8448
 
 .containerMaps {
   width: 110vw;

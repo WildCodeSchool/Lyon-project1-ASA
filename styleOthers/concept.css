@@ -1,0 +1,51 @@
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size : 20px;
+}
+
+.jumbotronConcept {
+    width: 100vw;
+    margin-left: -20px;
+    margin-top: 50px;
+    padding-top: 150px;
+    background: linear-gradient(10deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(../images/Burger_slider_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: lightgrey;
+}
+
+.jumbotronConcept h1 {
+    color: goldenrod;
+}
+
+.conceptDescription {
+    height: 30vh;
+    margin: 50px 0;
+}
+
+.first_conceptDescription {
+    text-align: left;
+}
+
+.second_conceptDescription {
+    display: flex;
+    text-align: justify;
+    padding-top: 50px;
+}
+
+.image_apport {
+    padding-top: 70px;
+}
+
+.jumbotronEcologie {
+    text-align: right;
+    background-color: goldenrod;
+}
+
+.jumbotronEcologie h2 {
+    color: lightgray;
+}
