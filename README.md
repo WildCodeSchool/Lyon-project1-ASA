@@ -36,4 +36,4 @@
 
  
  
-Made by : **Séverine, Anne-Laure and Alban**
+Made by : [Cverine](https://github.com/Cverine), [al2b](https://github.com/al2b), [Banb4n](https://github.com/Banb4n).
