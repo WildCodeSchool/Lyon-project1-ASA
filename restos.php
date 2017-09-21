@@ -30,134 +30,32 @@
                 <p>Vous avez envie d'un bon burger plein de fromages et de fourmis grillées ? On vous comprend! Découvrez l'un de nos restaurants près de chez vous :</p>
             </div>
         </div>
-
         <div class="row">
+        <?php
+        $restos = include("includes/dataresto.php");
+        foreach ($restos as $resto): ?>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
+                    <img src="./images/<?php echo $resto['img']; ?>" alt="Restaurant Bug Burger" style="width:100%">
                     <div class="caption">
                         <div class="row">
                             <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
+                                <a href="resto.php?ville=<?php echo $resto['ville']; ?>">
+                                    <p><?php echo $resto['titre']; ?></p>
                                 </a>
-                                <p>17 rue Delandine</p>
-                                <p>69002 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
+                                <p><?php echo $resto['adresse']; ?></p>
+                                <p><?php echo $resto['cp'] ." " .  $resto['ville']; ?></p>
+                                <p> <a href="tel:<?php echo $resto['tel']; ?>"><?php echo $resto['tel']; ?></a></p>
                             </div>
                             <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
+                                <p><?php echo $resto['description']; ?></p>
+                                <p><a href="resto.php?ville=<?php echo $resto['ville']; ?>" class="btn btn-default" role="button">En savoir plus</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
-                    <div class="caption">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
-                    <div class="caption">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
-                    <div class="caption">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
-                    <div class="caption">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="./images/resto6.jpg" alt="Restaurant Bug Burger" style="width:100%">
-                    <div class="caption">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="/restaurant1.html">
-                                    <p>Bug Burger de Lyon</p>
-                                </a>
-                                <p>114 rue Bugeaud</p>
-                                <p>69006 Lyon</p>
-                                <p> <a href="tel:0478301923">04 78 30 19 23</a></p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Le Bug Burger de Lyon, capital des Gaules. Plébiscité par les touristes.</p>
-                                <p><a href="#" class="btn btn-default" role="button">En savoir plus</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <?php endforeach; ?>
         </div>
     </section>
     <section>
