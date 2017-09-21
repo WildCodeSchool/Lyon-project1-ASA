@@ -29,9 +29,9 @@
     ----------
          - Beginning Tuesday 5/09
          
-         - Preview 15/09
+         - Preview 15/09  
          
-         - Presentation Friday 24/09
+         - Presentation Friday 22/09
       
 
  

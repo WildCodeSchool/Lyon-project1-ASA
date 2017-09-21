@@ -256,7 +256,7 @@ p
   min-height: 55vh;
   margin-left: -55px;
   padding-top: 200px;
-  text-align: justify;
+  text-align: left;
   color: lightgrey;
   background: linear-gradient(10deg, rgba($secondColor, 0.9), rgba(black, 0.6)), url("../images/equipetotale.jpg");
   background-size: cover;
@@ -271,8 +271,7 @@ p
   #map-canvas-left {
     margin: auto;
     height: 85vh;
-    width: 99%;
-    margin-left: -5px;
+    width: 100%;
   }
 
   #iw_container .iw_title {
