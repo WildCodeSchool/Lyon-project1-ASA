@@ -1,6 +1,6 @@
 <?php
 return [
-    'lyon' => [
+    'Lyon' => [
         'titre' => 'BugBurger Lyon',
         'description' => 'Le plus stylé des BugBurgers',
         'descriptionlg' => 'Le plus stylé des BugBurgers, incroyable mais vrai, vous n\'en reviendrez pas',
@@ -12,7 +12,7 @@ return [
         'img' => 'resto-lyon.jpg',
     ],
 
-    'paris' => [
+    'Paris' => [
         'titre' => 'BugBurger Paris',
         'description' => 'Le moins snob des restos d\'insectes !',
         'descriptionlg' => 'Le plus stylé des BugBurgers, incroyable mais vrai, vous n\'en reviendrez pas',
@@ -26,7 +26,7 @@ return [
 
     ],
 
-    'bordeaux' => [
+    'Bordeaux' => [
         'titre' => 'BugBurger Bordeaux',
         'description' => 'Tous les meilleurs crus d\'insectes!',
         'descriptionlg' => 'A Bordeaux, le plus stylé des BugBurgers, incroyable mais vrai, vous n\'en reviendrez pas',
@@ -39,7 +39,7 @@ return [
         'img' => 'resto-laloupe.jpg',
 
     ],
-    'laloupe' => [
+    'Laloupe' => [
         'titre' => 'BugBurger La Loupe',
         'description' => 'Incroyable mais vrai',
         'descriptionlg' => 'Incroyable mais vrai',
@@ -51,7 +51,7 @@ return [
         'img' => 'resto-strasbourg.jpg',
 
     ],
-    'strasbourg' => [
+    'Strasbourg' => [
         'titre' => 'BugBurger Strasbourg',
         'description' => 'Une cathédrale dédiée au culte des grillons !',
         'descriptionlg' => 'A Strasbourg, le plus stylé des BugBurgers, incroyable mais vrai, vous n\'en reviendrez pas',
@@ -64,7 +64,7 @@ return [
         'img' => 'resto-lille.jpg',
 
     ],
-    'orleans' => [
+    'Orleans' => [
         'titre' => 'BugBurger Orléans',
         'description' => 'Euuuh c\'est où Orléans??',
         'descriptionlg' => 'A Orléans, on sait plus trop quoi dire, le plus stylé des BugBurgers, incroyable mais vrai, vous n\'en reviendrez pas',
@@ -77,7 +77,7 @@ return [
         'img' => 'resto-laloupe.jpg',
 
     ],
-    'toulouse' => [
+    'Toulouse' => [
         'titre' => 'BugBurger Toulouse',
         'description' => 'BugBurger de Toulouse, born to win !',
         'descriptionlg' => 'A Toulouse, encore un contenu, incroyable mais vrai, vous n\'en reviendrez pas',
