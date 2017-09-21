@@ -30,41 +30,32 @@
             <h1>Foire Aux Questions</h1>
             <p>Nous avons répondu à vos questions les plus pertinentes ... et courantes !</p>
             <details open>
-                <summary><h2>1: Ma question est la suivante : blablaba</h2></summary>
+                <summary><h2>Est-ce que les insectes peuvent nous rendre malades ?</h2></summary>
                 <fieldset>
-                    <legend>2: Voici ma réponse : blablablablabla</legend>
+                    <legend>Les nôtres sont vaccinés contre la plupart des maladies, pas de problèmes !</legend>
                 </fieldset>
             </details>
             <details open>
-                <summary><h2>3: Ma question est la suivante : blablaba</h2></summary>
+                <summary><h2>A partir de quel âge peut-on manger des burgers aux insectes ?</h2></summary>
                 <fieldset>
-                    <legend>Voici ma réponse : blablablablabla</legend>
+                    <legend>On conseille d'attendre un âge suffisant pour manger autre chose que des purées (nous ne vendons pas de purées d'insectes).</legend>
                 </fieldset>
             </details>
             <details open>
-                <summary><h2>4: Ma question est la suivante : blablaba</h2></summary>
+                <summary><h2>Est-ce que les végétariens peuvent manger des insectes ?</h2></summary>
                 <fieldset>
-                    <legend>Voici ma réponse : blablablablabla</legend>
+                    <legend>La consommation d’insectes semble être proche des motivations des végétariens, cependant les différents régimes végétariens ne prévoient pas de consommation d’insectes pour le moment.
+                    </legend>
                 </fieldset>
             </details>
             <details open>
-                <summary><h2>5: Ma question est la suivante : blablaba</h2></summary>
+                <summary><h2>Quel est l’insecte le plus adapté à une première dégustation ?</h2></summary>
                 <fieldset>
-                    <legend>6: Voici ma réponse : blablablablabla</legend>
+                    <legend>Les grillons et les vers de farine sont des espèces faciles à préparer et à cuisiner. Ils ont aussi l’avantage d’être nutritif et délicieux.</legend>
                 </fieldset>
             </details>
-            <details open>
-                <summary><h2>7: Ma question est la suivante : blablaba</h2></summary>
-                <fieldset>
-                    <legend>Voici ma réponse : blablablablabla</legend>
-                </fieldset>
-            </details>
-            <details open>
-                <summary><h2>8: Ma question est la suivante : blablaba</h2></summary>
-                <fieldset>
-                    <legend>Voici ma réponse : blablablablabla</legend>
-                </fieldset>
-            </details>
+
+
     </section>
 </div> <!-- End container General -->
 
