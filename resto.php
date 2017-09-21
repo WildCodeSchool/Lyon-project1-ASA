@@ -31,8 +31,9 @@ $restaurants = include("./includes/dataresto.php");
 $restaurant = $restaurants[$ville];
 ?>
 <!-- Conteneur General ( all the sections of the Home page ) -->
-<section class="container-fluid">
 
+<div class="container-fluid">
+<section>
         <div class="jumbotron jumbotronResto">
             <div class="container">
                 <h1><?php echo $restaurant['titre']; ?></h1>
