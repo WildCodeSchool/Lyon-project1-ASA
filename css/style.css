@@ -208,6 +208,31 @@ p {
   .jumbotronEquipe h1 {
     color: goldenrod; }
 
+.jumbotronDamien {
+  min-height: 15vh;
+  width: 100vw;
+  margin-left: -60px;
+  background-color: goldenrod;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; }
+  .jumbotronDamien img {
+    margin-top: 15px; }
+  .jumbotronDamien h2 {
+    color: white; }
+
+.jumbotronLaurent {
+  min-height: 15vh;
+  width: 100vw;
+  margin-left: -65px;
+  background-color: goldenrod;
+  text-align: left;
+  display: flex; }
+  .jumbotronLaurent img {
+    margin-top: 15px; }
+  .jumbotronLaurent h2 {
+    color: white; }
+
 #map-canvas-left {
   margin: auto;
   height: 85vh;

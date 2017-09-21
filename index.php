@@ -21,7 +21,7 @@
     <!-- Jumbotron -->
     <div class="jumbotron jumbotronHeader">
         <div class="container-fluid">
-            <div class="container-fluid description">
+            <div class="description">
                 <div class="accrocheHeader">
                     <h1>Bug Burger, restaurant d’insectes.</h1>
                     <p> Une expérience délicieuse pour vous, et bonne pour la planète aussi !</p>
