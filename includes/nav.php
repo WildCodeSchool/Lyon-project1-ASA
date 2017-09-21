@@ -20,24 +20,7 @@
                 <li><a href="concept.php">Notre concept</a></li>
                 <li><a href="burgers.php">Nos Burgers</a></li>
                 <li><a href="equipe.php">Notre équipe</a></li>
-                <li><a data-target="restos.php" href="restos.php" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Restaurants<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="resto.php?ville=lyon">Lyon</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="resto.php?ville=laloupe">La Loupe</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="resto.php?ville=bordeaux">Bordeaux</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="resto.php?ville=toulouse">Toulouse</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="resto.php?ville=strasbourg">Strasbourg</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="resto.php?ville=paris">Paris</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="resto.php?ville=Lille">Lille</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="resto.php?ville=orleans">Orléans</a></li>
-                </ul></li>
+                <li><a href="restos.php">Restaurant</a></li>
                 <li><a href="FAQ.php" class=""><i class="fa fa-question-circle" aria-hidden="true" title="FAQ"></i></a></li>
                 <li><a href="#Contact"><i class="fa fa-envelope" aria-hidden="true" title="Contactez nous"></i></a></li>
             </ul>

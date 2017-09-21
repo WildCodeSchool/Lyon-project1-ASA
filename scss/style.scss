@@ -267,23 +267,54 @@ p
   }
 }
 
-  // Maps
-  #map-canvas-left {
-    margin: auto;
-    height: 85vh;
-    width: 100%;
+// Page Equipe
+.jumbotronDamien {
+  min-height: 15vh;
+  width: 100vw;
+  margin-left: -60px;
+  background-color: $mainColor;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  img {
+    margin-top: 15px;
   }
-
-  #iw_container .iw_title {
-    font-size: 16px;
-    font-weight: bold;
+  h2 {
+    color: white;
   }
+}
 
-  .iw_content {
-    padding: 15px 15px 15px 0;
+.jumbotronLaurent {
+  min-height: 15vh;
+  width: 100vw;
+  margin-left: -65px;
+  background-color: $mainColor;
+  text-align: left;
+  display: flex;
+  img {
+    margin-top: 15px;
   }
+  h2 {
+    color: white;
+  }
+}
 
 
+// Maps
+#map-canvas-left {
+  margin: auto;
+  height: 85vh;
+  width: 100%;
+}
+
+#iw_container .iw_title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.iw_content {
+  padding: 15px 15px 15px 0;
+}
 
 // Footer ( for all pages of website )
 .Well-endPage {
