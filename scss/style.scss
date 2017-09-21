@@ -373,12 +373,13 @@ p
     width: 180px;
     margin: auto;
     text-align: justify;
-    color: white;
-    background-color: rgba($mainColor, 0.2);
     padding: 25px;
     margin-top: 30px;
     margin-bottom: 10px;
     border-radius: 10px;
     box-shadow: 0 3px 10px $secondColor;
+    a {
+      color: $mainColor;
+    }
   }
 }

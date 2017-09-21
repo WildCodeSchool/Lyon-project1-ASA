@@ -293,12 +293,12 @@ p {
     width: 180px;
     margin: auto;
     text-align: justify;
-    color: white;
-    background-color: rgba(218, 165, 32, 0.2);
     padding: 25px;
     margin-top: 30px;
     margin-bottom: 10px;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8); }
+    .Well-endPage .navFooter a {
+      color: goldenrod; }
 
 /*# sourceMappingURL=style.css.map */
